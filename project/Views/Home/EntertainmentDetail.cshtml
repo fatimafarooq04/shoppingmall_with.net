@@ -1,0 +1,93 @@
+﻿@model Movie
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>EShopper - Bootstrap Shop Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <style>
+        .nav-tabs .nav-link.active,
+        .nav-tabs .nav-item.show .nav-link {
+            color: #000000;
+            background-color: #fff;
+            border-color: #dee2e6 #dee2e6 #fff;
+        }
+    </style>
+</head>
+
+<body>
+    @Html.Partial("userheader")
+    <!-- Page Header Start -->
+    <div class="container-fluid bg-secondary mb-5">
+        <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 300px">
+            <h1 class="font-weight-semi-bold text-uppercase mb-3">@Model.Title</h1>
+            <div class="d-inline-flex">
+                <p class="m-0"><a href="">Home</a></p>
+                <p class="m-0 px-2">-</p>
+                <p class="m-0"><a href="#"> Shop Detail</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- Page Header End -->
+    <!-- Shop Detail Start -->
+    <div class="container-fluid py-5">
+        <div class="row px-xl-5">
+            <div class="col-lg-5 pb-5">
+                <!-- Trailer Section Start -->
+                <h3 class="font-weight-semi-bold">Trailer</h3>
+                @if (!string.IsNullOrEmpty(Model.Trailer))
+                {
+                    var embedUrl = Model.Trailer.Replace("watch?v=", "embed/");
+                    <iframe src="@embedUrl" width="100%" height="315" frameborder="0" allowfullscreen></iframe>
+                }
+                else
+                {
+                    <span>No trailer available</span>
+                }                <!-- Trailer Section End -->
+            </div>
+
+            <div class="col-lg-7 pb-5">
+                <h3 class="font-weight-bold text-center" style="font-size:50px">@Model.Title</h3>
+               
+                <p class="mb-4">@Model.Description</p>
+                <p><strong>Runtime:</strong> @Model.Runtime </p>
+                <p><strong>Directors:</strong> @string.Join(", ", Model.Director)</p>
+                <p><strong>Actors:</strong> @string.Join(", ", Model.Actors)</p>
+
+                <h4 class="mt-4">Showtimes</h4>
+                <div class="d-flex justify-content-between align-items-center">
+                    <ul class="list-unstyled mb-0">
+                        @foreach (var showtime in Model.MovieShowtimes)
+                        {
+                            <li> @showtime.StartTime - @showtime.EndTime</li>
+                        }
+                    </ul>
+                    <button class="btn btn-primary book-now" style="margin-right:320px">
+                        <a asp-controller="Home" asp-action="MovieSeat"
+                           asp-route-movieId="@Model.MovieId"
+                           asp-route-showtimeId="@Model.MovieShowtimes.FirstOrDefault()?.ShowtimeId">
+                            Book Now
+                        </a>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+       
+     </div>
+    @Html.Partial("userfooter")
+
+
+</body>
+
+</html>

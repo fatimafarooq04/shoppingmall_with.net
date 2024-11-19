@@ -1,0 +1,127 @@
+﻿@model Shop
+
+@{
+    var images = ViewBag.images as IEnumerable<project.Models.Shopimages>;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>EShopper - Bootstrap Shop Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <style>
+        .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+            color: #000000;
+            background-color: #fff;
+            border-color: #dee2e6 #dee2e6 #fff;
+        }
+    </style>
+</head>
+<body>
+    @Html.Partial("userheader")
+    <!-- Page Header Start -->
+    <div class="container-fluid bg-secondary mb-5">
+        <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 300px">
+            <h1 class="font-weight-semi-bold text-uppercase mb-3">Shop Detail</h1>
+            <div class="d-inline-flex">
+                <p class="m-0"><a href="">Home</a></p>
+                <p class="m-0 px-2">-</p>
+                <p class="m-0"><a href="#"> Shop Detail</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- Page Header End -->
+    <!-- Shop Detail Start -->
+
+    <div class="container-fluid py-5">
+        <div class="row px-xl-5">
+            <div class="col-lg-5 pb-5">
+                <div id="product-carousel" class="carousel slide" data-ride="carousel">
+
+                    <div class="carousel-inner border">
+
+                        @if (images != null && images.Any())
+                        {
+                            bool isFirst = true;
+                            @foreach (var item in images)
+                            {
+                                <div class="carousel-item @(isFirst ? "active" : "")" style="height:500px">
+                                    <img class="w-100 h-100" src="~/shopimages/@item.ImageURL" alt="Image">
+                                </div>
+                                isFirst = false;
+                            }
+                        }
+                    </div>
+
+
+
+                    <a class="carousel-control-prev" href="#product-carousel" data-slide="prev">
+                        <i class="fa fa-2x fa-angle-left text-white"></i>
+                    </a>
+                    <a class="carousel-control-next" href="#product-carousel" data-slide="next">
+                        <i class="fa fa-2x fa-angle-right text-white"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-7 pb-5">
+
+
+                <h3 class="font-weight-semi-bold">@Model.ShopName</h3>
+              
+                <p class="mb-4">@Model.Description</p>
+
+
+
+             
+            </div>
+        </div>
+        <div class="row px-xl-5">
+            <div class="col-12">
+                <!-- Changed to col-12 for full width -->
+                <div class="nav nav-tabs justify-content-center border-secondary mb-4 w-100">
+                    <!-- Added w-100 for full width -->
+                    <a class="nav-item nav-link active text-black" style="border-top:1px solid black; border-left:1px solid black; border-right:1px solid black;" data-toggle="tab" href="#tab-pane-2">Additional Info</a>
+                </div>
+                <div class="tab-content">
+
+                    <div class="tab-pane active" id="tab-pane-2">
+                        <h4 class="mb-3" style="color:black">Additional Information</h4>
+                        <p>Discover everything you need to know about our store:</p>
+                        <div class="row">
+                            <div class="col-md-6 d-flex col-lg-6">
+@*                                 <img src="~/assests/images/bg_1.jpg" alt="Store Image" height="200" class="img-fluid" /> <!-- Added img-fluid class for responsive image -->
+ *@                                </div>
+                                <div class="col-lg-6">
+                                <ul class="list-group list-group-flush" style="margin-left:20px;">
+                                    <li class="list-group-item px-0">Location: @Model.Location</li>
+                                    <li class="list-group-item px-0">Phone: @Model.Phone</li>
+                                    <li class="list-group-item px-0">Email: @Model.Email</li>
+                                    <li class="list-group-item px-0">Store Hours: @Model.StoreHours</li>
+                                </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    <!-- Shop Detail End -->
+    @Html.Partial("userfooter")
+</body>
+
+</html>

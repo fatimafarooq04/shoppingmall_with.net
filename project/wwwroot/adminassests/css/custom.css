@@ -1,0 +1,39 @@
+.container {
+    max-width: 600px;
+    margin-top: 100px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    width: 100%;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #007bff;
+}
+
+.form-control-file {
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+.sidebar[data-background-color=dark] {
+    background: #dbcc8f;
+    color: white;
+}
+.sidebar .nav > .nav-item a .caret, .sidebar[data-background-color=white] .nav > .nav-item a .caret {
+    margin-left: auto;
+    margin-right: 6px;
+    transition: all .5s;
+    color: #ffffff;
+}
+.sidebar[data-background-color=dark] .nav > .nav-item a:focus p, .sidebar[data-background-color=dark] .nav > .nav-item a:hover p, .sidebar[data-background-color=dark] .nav > .nav-item a[data-toggle=collapse][aria-expanded=true] p {
+    color: white !important;
+}

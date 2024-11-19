@@ -1,0 +1,352 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Categories Form</title>
+    <link rel="icon"
+          href="assets/img/kaiadmin/favicon.ico"
+          type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+          rel="stylesheet" />
+
+    <!-- Fonts and icons -->
+    <script src="~/adminassests/js/plugin/webfont/webfont.min.js"></script>
+    <script>
+        WebFont.load({
+            google: { families: ["Public Sans:300,400,500,600,700"] },
+            custom: {
+                families: [
+                    "Font Awesome 5 Solid",
+                    "Font Awesome 5 Regular",
+                    "Font Awesome 5 Brands",
+                    "simple-line-icons",
+                ],
+                urls: ["assets/css/fonts.min.css"],
+            },
+            active: function () {
+                sessionStorage.fonts = true;
+            },
+        });
+    </script>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="~/adminassests/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/adminassests/css/plugins.min.css" />
+    <link rel="stylesheet" href="~/adminassests/css/kaiadmin.min.css" />
+
+    <script src="~/assadminassestsets/js/core/jquery-3.7.1.min.js"></script>
+    <script src="~/adminassests/js/core/popper.min.js"></script>
+    <script src="~/adminassests/js/core/bootstrap.min.js"></script>
+
+    <!-- jQuery Scrollbar -->
+    <script src="~/adminassests/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+
+    <!-- Chart JS -->
+    <script src="~/adminassests/js/plugin/chart.js/chart.min.js"></script>
+
+    <!-- jQuery Sparkline -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-sparkline/2.1.2/jquery.sparkline.min.js"></script>
+
+    <!-- Chart Circle -->
+    <script src="~/adminassests/js/plugin/chart-circle/circles.min.js"></script>
+
+    <!-- Datatables -->
+    <script src="~/adminassests/js/plugin/datatables/datatables.min.js"></script>
+
+    <!-- Bootstrap Notify -->
+    <script src="~/adminassests/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
+
+    <!-- jQuery Vector Maps -->
+    <script src="~/adminassests/js/plugin/jsvectormap/jsvectormap.min.js"></script>
+    <script src="~/adminassests/js/plugin/jsvectormap/world.js"></script>
+
+    <!-- Sweet Alert -->
+    <script src="~/adminassests/js/plugin/sweetalert/sweetalert.min.js"></script>
+
+    <!-- Kaiadmin JS -->
+    <script src="~/adminassests/js/kaiadmin.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+
+
+    <script>
+        $("#lineChart").sparkline([102, 109, 120, 99, 110, 105, 115], {
+            type: "line",
+            height: "70",
+            width: "100%",
+            lineWidth: "2",
+            lineColor: "#177dff",
+            fillColor: "rgba(23, 125, 255, 0.14)",
+        });
+
+        $("#lineChart2").sparkline([99, 125, 122, 105, 110, 124, 115], {
+            type: "line",
+            height: "70",
+            width: "100%",
+            lineWidth: "2",
+            lineColor: "#f3545d",
+            fillColor: "rgba(243, 84, 93, .14)",
+        });
+
+        $("#lineChart3").sparkline([105, 103, 123, 100, 95, 105, 115], {
+            type: "line",
+            height: "70",
+            width: "100%",
+            lineWidth: "2",
+            lineColor: "#ffa534",
+            fillColor: "rgba(255, 165, 52, .14)",
+        });
+    </script>
+</head>
+
+<body>
+    @Html.Partial("adminHeader");
+ 
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f2f2f2;
+                margin: 0;
+                padding: 0;
+            }
+
+            .container {
+                max-width: 800px;
+                margin: 50px auto;
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            }
+
+            h1 {
+                text-align: center;
+                color: #4CAF50;
+            }
+
+            .profile-info {
+                display: flex;
+                align-items: center;
+                margin-bottom: 20px;
+            }
+
+                .profile-info img {
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50%;
+                    margin-right: 20px;
+                }
+
+                .profile-info div {
+                    flex-grow: 1;
+                }
+
+                .profile-info h2 {
+                    margin: 0;
+                    font-size: 24px;
+                }
+
+                .profile-info p {
+                    margin: 5px 0;
+                    color: #555;
+                }
+
+            .back-button {
+                display: block;
+                width: 100%;
+                padding: 10px;
+                background-color: #4CAF50;
+                color: white;
+                text-align: center;
+                border-radius: 5px;
+                text-decoration: none;
+                margin-top: 20px;
+            }
+
+                .back-button:hover {
+                    background-color: #45a049;
+                }
+        </style>
+  
+        <div class="container">
+            <h1>Profile Information</h1>
+
+            <div class="profile-info">
+                <img src="@ViewBag.UserImg" alt="Profile Image" />
+                <div>
+                    <h2>@ViewBag.Username</h2>
+                    @* <p><strong>Email:</strong> @ViewBag.Email</p> *@
+                    @* <p><strong>Role:</strong> @ViewBag.Role</p> *@
+                    <p><strong>Joined Date:</strong> @ViewBag.JoinedDate</p>
+                </div>
+            </div>
+
+            <a href="@Url.Action("Index", "Home")" class="back-button">Back to Home</a>
+        </div>
+    
+
+    <footer class="footer">
+        <div class="container-fluid d-flex justify-content-between">
+            <nav class="pull-left">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://www.themekita.com">
+                            ThemeKita
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Help </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Licenses </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="copyright">
+                2024, made with <i class="fa fa-heart heart text-danger"></i> by
+                <a href="http://www.themekita.com">ThemeKita</a>
+            </div>
+            <div>
+                Distributed by
+                <a target="_blank" href="https://themewagon.com/">ThemeWagon</a>.
+            </div>
+        </div>
+    </footer>
+    </div>
+
+    <!-- Custom template | don't include it in your project! -->
+    <div class="custom-template">
+        <div class="title">Settings</div>
+        <div class="custom-content">
+            <div class="switcher">
+                <div class="switch-block">
+                    <h4>Logo Header</h4>
+                    <div class="btnSwitch">
+                        <button type="button"
+                                class="selected changeLogoHeaderColor"
+                                data-color="dark"></button>
+                        <button type="button"
+                                class="changeLogoHeaderColor"
+                                data-color="blue"></button>
+                        <button type="button"
+                                class="changeLogoHeaderColor"
+                                data-color="purple"></button>
+                        <button type="button"
+                                class="changeLogoHeaderColor"
+                                data-color="light-blue"></button>
+                        <button type="button"
+                                class="changeLogoHeaderColor"
+                                data-color="green"></button>
+                        <button type="button"
+                                class="changeLogoHeaderColor"
+                                data-color="orange"></button>
+                        <button type="button"
+                                class="changeLogoHeaderColor"
+                                data-color="red"></button>
+                        <button type="button"
+                                class="changeLogoHeaderColor"
+                                data-color="white"></button>
+                        <br />
+                        <button type="button"
+                                class="changeLogoHeaderColor"
+                                data-color="dark2"></button>
+                        <button type="button"
+                                class="changeLogoHeaderColor"
+                                data-color="blue2"></button>
+                        <button type="button"
+                                class="changeLogoHeaderColor"
+                                data-color="purple2"></button>
+                        <button type="button"
+                                class="changeLogoHeaderColor"
+                                data-color="light-blue2"></button>
+                        <button type="button"
+                                class="changeLogoHeaderColor"
+                                data-color="green2"></button>
+                        <button type="button"
+                                class="changeLogoHeaderColor"
+                                data-color="orange2"></button>
+                        <button type="button"
+                                class="changeLogoHeaderColor"
+                                data-color="red2"></button>
+                    </div>
+                </div>
+                <div class="switch-block">
+                    <h4>Navbar Header</h4>
+                    <div class="btnSwitch">
+                        <button type="button"
+                                class="changeTopBarColor"
+                                data-color="dark"></button>
+                        <button type="button"
+                                class="changeTopBarColor"
+                                data-color="blue"></button>
+                        <button type="button"
+                                class="changeTopBarColor"
+                                data-color="purple"></button>
+                        <button type="button"
+                                class="changeTopBarColor"
+                                data-color="light-blue"></button>
+                        <button type="button"
+                                class="changeTopBarColor"
+                                data-color="green"></button>
+                        <button type="button"
+                                class="changeTopBarColor"
+                                data-color="orange"></button>
+                        <button type="button"
+                                class="changeTopBarColor"
+                                data-color="red"></button>
+                        <button type="button"
+                                class="selected changeTopBarColor"
+                                data-color="white"></button>
+                        <br />
+                        <button type="button"
+                                class="changeTopBarColor"
+                                data-color="dark2"></button>
+                        <button type="button"
+                                class="changeTopBarColor"
+                                data-color="blue2"></button>
+                        <button type="button"
+                                class="changeTopBarColor"
+                                data-color="purple2"></button>
+                        <button type="button"
+                                class="changeTopBarColor"
+                                data-color="light-blue2"></button>
+                        <button type="button"
+                                class="changeTopBarColor"
+                                data-color="green2"></button>
+                        <button type="button"
+                                class="changeTopBarColor"
+                                data-color="orange2"></button>
+                        <button type="button"
+                                class="changeTopBarColor"
+                                data-color="red2"></button>
+                    </div>
+                </div>
+                <div class="switch-block">
+                    <h4>Sidebar</h4>
+                    <div class="btnSwitch">
+                        <button type="button"
+                                class="changeSideBarColor"
+                                data-color="white"></button>
+                        <button type="button"
+                                class="selected changeSideBarColor"
+                                data-color="dark"></button>
+                        <button type="button"
+                                class="changeSideBarColor"
+                                data-color="dark2"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="custom-toggle">
+            <i class="icon-settings"></i>
+        </div>
+    </div>
+    <!-- End Custom template -->
+    </div>
+
+</body>
+</html>

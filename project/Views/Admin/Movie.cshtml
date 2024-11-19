@@ -1,0 +1,239 @@
+﻿@model project.Models.Movie
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Categories Form</title>
+    <link rel="icon"
+          href="assets/img/kaiadmin/favicon.ico"
+          type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+          rel="stylesheet" />
+
+    <!-- Fonts and icons -->
+    <script src="~/adminassests/js/plugin/webfont/webfont.min.js"></script>
+    <script>
+        WebFont.load({
+            google: { families: ["Public Sans:300,400,500,600,700"] },
+            custom: {
+                families: [
+                    "Font Awesome 5 Solid",
+                    "Font Awesome 5 Regular",
+                    "Font Awesome 5 Brands",
+                    "simple-line-icons",
+                ],
+                urls: ["assets/css/fonts.min.css"],
+            },
+            active: function () {
+                sessionStorage.fonts = true;
+            },
+        });
+    </script>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="~/adminassests/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/adminassests/css/plugins.min.css" />
+    <link rel="stylesheet" href="~/adminassests/css/kaiadmin.min.css" />
+
+    <script src="~/assadminassestsets/js/core/jquery-3.7.1.min.js"></script>
+    <script src="~/adminassests/js/core/popper.min.js"></script>
+    <script src="~/adminassests/js/core/bootstrap.min.js"></script>
+
+    <!-- jQuery Scrollbar -->
+    <script src="~/adminassests/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+
+    <!-- Chart JS -->
+    <script src="~/adminassests/js/plugin/chart.js/chart.min.js"></script>
+
+    <!-- jQuery Sparkline -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-sparkline/2.1.2/jquery.sparkline.min.js"></script>
+
+    <!-- Chart Circle -->
+    <script src="~/adminassests/js/plugin/chart-circle/circles.min.js"></script>
+
+    <!-- Datatables -->
+    <script src="~/adminassests/js/plugin/datatables/datatables.min.js"></script>
+
+    <!-- Bootstrap Notify -->
+    <script src="~/adminassests/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
+
+    <!-- jQuery Vector Maps -->
+    <script src="~/adminassests/js/plugin/jsvectormap/jsvectormap.min.js"></script>
+    <script src="~/adminassests/js/plugin/jsvectormap/world.js"></script>
+
+    <!-- Sweet Alert -->
+    <script src="~/adminassests/js/plugin/sweetalert/sweetalert.min.js"></script>
+
+    <!-- Kaiadmin JS -->
+    <script src="~/adminassests/js/kaiadmin.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+
+
+    <script>
+        $("#lineChart").sparkline([102, 109, 120, 99, 110, 105, 115], {
+            type: "line",
+            height: "70",
+            width: "100%",
+            lineWidth: "2",
+            lineColor: "#177dff",
+            fillColor: "rgba(23, 125, 255, 0.14)",
+        });
+
+        $("#lineChart2").sparkline([99, 125, 122, 105, 110, 124, 115], {
+            type: "line",
+            height: "70",
+            width: "100%",
+            lineWidth: "2",
+            lineColor: "#f3545d",
+            fillColor: "rgba(243, 84, 93, .14)",
+        });
+
+        $("#lineChart3").sparkline([105, 103, 123, 100, 95, 105, 115], {
+            type: "line",
+            height: "70",
+            width: "100%",
+            lineWidth: "2",
+            lineColor: "#ffa534",
+            fillColor: "rgba(255, 165, 52, .14)",
+        });
+    </script>
+</head>
+<body>
+@{
+    ViewBag.Title = "Fetch Movie Details";
+}
+@Html.Partial("adminheader")
+
+<!-- Embedded CSS for styling -->
+<style>
+    /* Add your existing CSS styles here */
+</style>
+
+
+<div class="container">
+    <h2 class="text-center">Fetch Movie Details or Add Manually</h2>
+
+    @* Display validation summary errors *@
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <form id="fetchForm" asp-action="FetchMovie" method="post">
+        <div class="form-group">
+            <label for="MovieTitle">Movie Title</label>
+            <input type="text" class="form-control" id="MovieTitle" name="MovieTitle" required />
+        </div>
+        <button type="submit" class="btn btn-primary">Fetch Movie</button>
+    </form>
+
+    <hr />
+
+    @* If the fetched movie is found, display the form with pre-filled details for editing *@
+    @if (Model != null && !string.IsNullOrEmpty(Model.Title))
+    {
+        <h3>Edit or Add Movie Details</h3>
+        <form asp-action="SaveMovieDetails" method="post">
+            <div class="form-group">
+                <label for="Title">Title</label>
+                <input type="text" class="form-control" id="Title" name="Title" value="@Model.Title" required />
+            </div>
+            <div class="form-group">
+                <label for="Description">Description</label>
+                <textarea class="form-control" id="Description" name="Description" required>@Model.Description</textarea>
+            </div>
+            <div class="form-group">
+                <label for="ReleaseDate">Release Date</label>
+                <input type="date" class="form-control" id="ReleaseDate" name="ReleaseDate" value="@Model.ReleaseDate?.ToString("yyyy-MM-dd")" required />
+            </div>
+            <div class="form-group">
+                <label for="Language">Language</label>
+                <input type="text" class="form-control" id="Language" name="Language" value="@Model.Language" required />
+            </div>
+              <div class="form-group">
+                <label for="Language">Genre</label>
+                <input type="text" class="form-control" id="Language" name="Genre" value="@Model.Genre" required />
+            </div>
+            <div class="form-group">
+                <label for="Language">Runtime</label>
+                <input type="text" class="form-control" id="Runtime" name="Runtime" value="@Model.Runtime" required />
+            </div>
+            <div class="form-group">
+                <label for="Director">Director</label>
+                <input type="text" class="form-control" id="Director" name="Director" value="@Model.Director" required />
+            </div>
+            <div class="form-group">
+                <label for="Actors">Actors</label>
+                <input type="text" class="form-control" id="Actors" name="Actors" value="@Model.Actors" required />
+            </div>
+            <div class="form-group">
+                <label for="Poster">Poster URL</label>
+                <input type="text" class="form-control" id="Poster" name="Poster" value="@Model.Poster" required />
+            </div>
+            <div class="form-group">
+                <label for="Trailer">Trailer URL</label>
+                <input type="text" class="form-control" id="Trailer" name="Trailer" value="@Model.Trailer" required />
+            </div>
+
+            @if (!string.IsNullOrEmpty(Model.Poster))
+            {
+                <img src="@Model.Poster" alt="Movie Poster" />
+            }
+
+            @if (!string.IsNullOrEmpty(Model.Trailer))
+            {
+                <p><strong>Trailer:</strong> <a href="@Model.Trailer" target="_blank">Watch Trailer</a></p>
+                var trailerEmbedUrl = Model.Trailer.Replace("watch?v=", "embed/").Replace("https://", "https://").Replace("http://", "http://");
+                <iframe src="@trailerEmbedUrl" frameborder="0" allowfullscreen style="width:560px; height:315px;"></iframe>
+            }
+            else
+            {
+                <p>No trailer available.</p>
+            }
+            <button type="submit" class="btn btn-success">Save Movie</button>
+        </form>
+    }
+    else
+    {
+        <h3>Add Movie Manually</h3>
+        <form asp-action="SaveMovieDetails" method="post">
+            <div class="form-group">
+                <label for="Title">Title</label>
+                <input type="text" class="form-control" id="Title" name="Title" required />
+            </div>
+            <div class="form-group">
+                <label for="Description">Description</label>
+                <textarea class="form-control" id="Description" name="Description" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="ReleaseDate">Release Date</label>
+                <input type="date" class="form-control" id="ReleaseDate" name="ReleaseDate" required />
+            </div>
+            <div class="form-group">
+                <label for="Language">Language</label>
+                <input type="text" class="form-control" id="Language" name="Language" required />
+            </div>
+            <div class="form-group">
+                <label for="Director">Director</label>
+                <input type="text" class="form-control" id="Director" name="Director" required />
+            </div>
+            <div class="form-group">
+                <label for="Actors">Actors</label>
+                <input type="text" class="form-control" id="Actors" name="Actors" required />
+            </div>
+            <div class="form-group">
+                <label for="Poster">Poster URL</label>
+                <input type="text" class="form-control" id="Poster" name="Poster" required />
+            </div>
+            <div class="form-group">
+                <label for="Trailer">Trailer URL</label>
+                <input type="text" class="form-control" id="Trailer" name="Trailer" required />
+            </div>
+            <button type="submit" class="btn btn-success">Add Movie</button>
+        </form>
+    }
+</div>
+</body>
+</html>

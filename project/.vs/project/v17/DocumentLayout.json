@@ -1,0 +1,767 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|c:\\users\\student\\desktop\\shopping mall\\project\\views\\admin\\editmovie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\admin\\editmovie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|c:\\users\\student\\desktop\\shopping mall\\project\\views\\admin\\editgallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\admin\\editgallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|c:\\users\\student\\desktop\\shopping mall\\project\\views\\admin\\editrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\admin\\editrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\views\\admin\\floors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\admin\\floors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|c:\\users\\student\\desktop\\shopping mall\\project\\views\\admin\\foodcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\admin\\foodcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|c:\\users\\student\\desktop\\shopping mall\\project\\views\\admin\\gallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\admin\\gallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|c:\\users\\student\\desktop\\shopping mall\\project\\views\\admin\\showcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\admin\\showcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|c:\\users\\student\\desktop\\shopping mall\\project\\views\\admin\\showfeedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\admin\\showfeedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|c:\\users\\student\\desktop\\shopping mall\\project\\views\\admin\\showfood.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\admin\\showfood.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|c:\\users\\student\\desktop\\shopping mall\\project\\views\\admin\\showrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\admin\\showrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|c:\\users\\student\\desktop\\shopping mall\\project\\views\\admin\\showshop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\admin\\showshop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|c:\\users\\student\\desktop\\shopping mall\\project\\views\\admin\\showmovie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\admin\\showmovie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|c:\\users\\student\\desktop\\shopping mall\\project\\views\\admin\\showfoodcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\admin\\showfoodcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|c:\\users\\student\\desktop\\shopping mall\\project\\views\\admin\\showgallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\admin\\showgallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|c:\\users\\student\\desktop\\shopping mall\\project\\views\\admin\\showfloors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\admin\\showfloors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|c:\\users\\student\\desktop\\shopping mall\\project\\views\\admin\\showbooking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\admin\\showbooking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|c:\\users\\student\\desktop\\shopping mall\\project\\views\\admin\\role.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\admin\\role.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|c:\\users\\student\\desktop\\shopping mall\\project\\views\\admin\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\admin\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|c:\\users\\student\\desktop\\shopping mall\\project\\views\\admin\\showmovietime.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\admin\\showmovietime.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\views\\admin\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\admin\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|c:\\users\\student\\desktop\\shopping mall\\project\\views\\admin\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\admin\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|c:\\users\\student\\desktop\\shopping mall\\project\\views\\admin\\movie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\admin\\movie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|c:\\users\\student\\desktop\\shopping mall\\project\\views\\admin\\foodshop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\admin\\foodshop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|c:\\users\\student\\desktop\\shopping mall\\project\\views\\admin\\editshop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\admin\\editshop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|c:\\users\\student\\desktop\\shopping mall\\project\\views\\admin\\editfoodshop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\admin\\editfoodshop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\views\\admin\\category.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\admin\\category.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|c:\\users\\student\\desktop\\shopping mall\\project\\views\\admin\\editfoodcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\admin\\editfoodcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|c:\\users\\student\\desktop\\shopping mall\\project\\views\\admin\\editfloors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\admin\\editfloors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|c:\\users\\student\\desktop\\shopping mall\\project\\views\\admin\\editcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\admin\\editcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\views\\admin\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\admin\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|c:\\users\\student\\desktop\\shopping mall\\project\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\views\\home\\movieseat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\home\\movieseat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 309,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Foodcategory.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\Foodcategory.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Foodcategory.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\Foodcategory.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Foodcategory.cshtml",
+              "ViewState": "AQIAAFwAAAAAAAAAAAApwGgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T14:27:40.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Floors.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\Floors.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Floors.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\Floors.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Floors.cshtml",
+              "ViewState": "AQIAAF0AAAAAAAAAAAApwGkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T05:48:11.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditRole.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\EditRole.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\EditRole.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\EditRole.cshtml",
+              "RelativeToolTip": "Views\\Admin\\EditRole.cshtml",
+              "ViewState": "AQIAAF0AAAAAAAAAAAApwGkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T14:27:10.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditMovie.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\EditMovie.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\EditMovie.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\EditMovie.cshtml",
+              "RelativeToolTip": "Views\\Admin\\EditMovie.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T14:27:03.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Editgallery.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\Editgallery.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Editgallery.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\Editgallery.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Editgallery.cshtml",
+              "ViewState": "AQIAAF4AAAAAAAAAAAApwGoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T14:26:03.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAAFoAAAAAMDMzMzMiwGkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T05:59:34.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "gallery.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\gallery.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\gallery.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\gallery.cshtml",
+              "RelativeToolTip": "Views\\Admin\\gallery.cshtml",
+              "ViewState": "AQIAAFwAAAAAAAAAAAApwGgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T14:28:03.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ShowCategory.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\ShowCategory.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\ShowCategory.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\ShowCategory.cshtml",
+              "RelativeToolTip": "Views\\Admin\\ShowCategory.cshtml",
+              "ViewState": "AQIAAF0AAAAAAAAAAAApwGkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T14:29:31.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Showfeedback.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\Showfeedback.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Showfeedback.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\Showfeedback.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Showfeedback.cshtml",
+              "ViewState": "AQIAAF4AAAAAAAAAAAApwGoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T14:29:37.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Showfood.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\Showfood.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Showfood.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\Showfood.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Showfood.cshtml",
+              "ViewState": "AQIAAF4AAAAAAAAAAAApwGoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T14:29:47.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ShowRole.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\ShowRole.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\ShowRole.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\ShowRole.cshtml",
+              "RelativeToolTip": "Views\\Admin\\ShowRole.cshtml",
+              "ViewState": "AQIAAF0AAAAAAAAAAAApwGkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T14:30:22.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Showshop.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\Showshop.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Showshop.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\Showshop.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Showshop.cshtml",
+              "ViewState": "AQIAAF4AAAAAAAAAAAApwGoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T14:30:31.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ShowMovie.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\ShowMovie.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\ShowMovie.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\ShowMovie.cshtml",
+              "RelativeToolTip": "Views\\Admin\\ShowMovie.cshtml",
+              "ViewState": "AQIAAF4AAAAAAAAAAAApwGoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T14:30:02.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ShowFoodcategory.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\ShowFoodcategory.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\ShowFoodcategory.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\ShowFoodcategory.cshtml",
+              "RelativeToolTip": "Views\\Admin\\ShowFoodcategory.cshtml",
+              "ViewState": "AQIAAF0AAAAAAAAAAAApwGkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T14:29:52.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "showgallery.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\showgallery.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\showgallery.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\showgallery.cshtml",
+              "RelativeToolTip": "Views\\Admin\\showgallery.cshtml",
+              "ViewState": "AQIAAF4AAAAAAAAAAAApwGoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T14:29:56.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ShowFloors.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\ShowFloors.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\ShowFloors.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\ShowFloors.cshtml",
+              "RelativeToolTip": "Views\\Admin\\ShowFloors.cshtml",
+              "ViewState": "AQIAAF0AAAAAAAAAAAApwGkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T14:29:43.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Showbooking.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\Showbooking.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Showbooking.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\Showbooking.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Showbooking.cshtml",
+              "ViewState": "AQIAAF0AAAAAAAAAAAApwGkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T14:29:24.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Role.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\Role.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Role.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\Role.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Role.cshtml",
+              "ViewState": "AQIAAFwAAAAAAAAAAAApwGgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T14:29:00.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SignIn.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\SignIn.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\SignIn.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\SignIn.cshtml",
+              "RelativeToolTip": "Views\\Admin\\SignIn.cshtml",
+              "ViewState": "AQIAAIoAAAAAMjMzMzPzv40AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T14:30:37.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ShowMovieTime.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\ShowMovieTime.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\ShowMovieTime.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\ShowMovieTime.cshtml",
+              "RelativeToolTip": "Views\\Admin\\ShowMovieTime.cshtml",
+              "ViewState": "AQIAACsBAAAAAAAAAAAAACwBAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T14:30:07.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\Profile.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Profile.cshtml",
+              "ViewState": "AQIAALIAAAAAMzMzMzMbwGcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T14:28:35.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Movie.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\Movie.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Movie.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\Movie.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Movie.cshtml",
+              "ViewState": "AQIAAOwAAAAAAAAAAAAAAO4AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T14:28:18.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "foodshop.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\foodshop.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\foodshop.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\foodshop.cshtml",
+              "RelativeToolTip": "Views\\Admin\\foodshop.cshtml",
+              "ViewState": "AQIAALAAAACAZmZmZmYkwLoAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T14:27:50.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Shop.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\Shop.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Shop.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\Shop.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Shop.cshtml",
+              "ViewState": "AQIAALAAAAAAAAAAAAAAALIAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T06:01:47.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EditShop.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\EditShop.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\EditShop.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\EditShop.cshtml",
+              "RelativeToolTip": "Views\\Admin\\EditShop.cshtml",
+              "ViewState": "AQIAALQAAAAAAAAAAAAAALkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T14:27:16.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Editfoodshop.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\Editfoodshop.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Editfoodshop.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\Editfoodshop.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Editfoodshop.cshtml",
+              "ViewState": "AQIAALoAAAAAMzMzMzMbwMMAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T14:25:56.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EditFoodCategory.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\EditFoodCategory.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\EditFoodCategory.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\EditFoodCategory.cshtml",
+              "RelativeToolTip": "Views\\Admin\\EditFoodCategory.cshtml",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAkwGgAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T14:25:50.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "EditFloors.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\EditFloors.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\EditFloors.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\EditFloors.cshtml",
+              "RelativeToolTip": "Views\\Admin\\EditFloors.cshtml",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAkwGgAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T14:22:03.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\Admin\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T14:09:36.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Category.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\Category.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Category.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\Category.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Category.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T05:48:05.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_adminlayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Shared\\_adminlayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_adminlayout.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Shared\\_adminlayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_adminlayout.cshtml",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAgwGwAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T14:09:53.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T13:44:23.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "EditCategory.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\EditCategory.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\EditCategory.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Admin\\EditCategory.cshtml",
+              "RelativeToolTip": "Views\\Admin\\EditCategory.cshtml",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAkwGgAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T14:21:58.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T13:42:38.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAADwAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T12:08:13.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T13:44:26.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAMYAAAAAZmZmZmYkwMwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T13:44:57.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-17T13:42:10.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-17T13:42:08.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAsAAAAAMzMzMzPzvxIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T13:51:52.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-15T13:34:39.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAUwHsAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T02:11:31.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AQIAAJIDAAAARDMzMzMbwGYAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T02:08:47.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "MovieSeat.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Home\\MovieSeat.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\MovieSeat.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\Views\\Home\\MovieSeat.cshtml",
+              "RelativeToolTip": "Views\\Home\\MovieSeat.cshtml",
+              "ViewState": "AQIAAGoBAAAAAAAAAAAkwHoBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T02:04:02.009Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 91,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+@model IEnumerable<project.Models.Role>
+@Html.Partial("adminHeader");
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Movie Day Form</h2>
+
+    @if (ViewBag.SuccessMessage != null)
+    {
+        <div class="alert alert-success">@ViewBag.SuccessMessage</div>
+    }
+
+    <form method="post" enctype="multipart/form-data" class="border p-4 rounded shadow mx-5 my-4">
+        <div class="form-group mb-3">
+            <label for="StartTime">Username</label>
+            <input type="text" class="form-control" id="Username" name="Username" required>
+        </div>
+        <div class="form-group mb-3">
+            <label for="EndTime">Email</label>
+            <input type="text" class="form-control" id="Email" name="Email" required>
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="MovieDay">Password</label>
+            <input type="text" class="form-control" id="Password" name="Password" required>
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="MovieDay">First Name</label>
+            <input type="text" class="form-control" id="FirstName" name="FirstName" required>
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="MovieDay">Last Name</label>
+            <input type="text" class="form-control" id="LastName" name="LastName" required>
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="MovieDay">User Img</label>
+            <input type="file" class="form-control" id="Userimg" name="Userimg" required>
+        </div>
+       
+
+
+
+        <div class="d-grid">
+            <button type="submit" class="btn btn-primary">Add User</button>
+        </div>
+    </form>
+</div>

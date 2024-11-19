@@ -1,0 +1,301 @@
+﻿@model IEnumerable<project.Models.Movie>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Categories Form</title>
+    <link rel="icon"
+          href="assets/img/kaiadmin/favicon.ico"
+          type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+          rel="stylesheet" />
+
+    <!-- Fonts and icons -->
+    <script src="~/adminassests/js/plugin/webfont/webfont.min.js"></script>
+    <script>
+        WebFont.load({
+            google: { families: ["Public Sans:300,400,500,600,700"] },
+            custom: {
+                families: [
+                    "Font Awesome 5 Solid",
+                    "Font Awesome 5 Regular",
+                    "Font Awesome 5 Brands",
+                    "simple-line-icons",
+                ],
+                urls: ["assets/css/fonts.min.css"],
+            },
+            active: function () {
+                sessionStorage.fonts = true;
+            },
+        });
+    </script>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="~/adminassests/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/adminassests/css/plugins.min.css" />
+    <link rel="stylesheet" href="~/adminassests/css/kaiadmin.min.css" />
+
+    <script src="~/assadminassestsets/js/core/jquery-3.7.1.min.js"></script>
+    <script src="~/adminassests/js/core/popper.min.js"></script>
+    <script src="~/adminassests/js/core/bootstrap.min.js"></script>
+
+    <!-- jQuery Scrollbar -->
+    <script src="~/adminassests/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+
+    <!-- Chart JS -->
+    <script src="~/adminassests/js/plugin/chart.js/chart.min.js"></script>
+
+    <!-- jQuery Sparkline -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-sparkline/2.1.2/jquery.sparkline.min.js"></script>
+
+    <!-- Chart Circle -->
+    <script src="~/adminassests/js/plugin/chart-circle/circles.min.js"></script>
+
+    <!-- Datatables -->
+    <script src="~/adminassests/js/plugin/datatables/datatables.min.js"></script>
+
+    <!-- Bootstrap Notify -->
+    <script src="~/adminassests/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
+
+    <!-- jQuery Vector Maps -->
+    <script src="~/adminassests/js/plugin/jsvectormap/jsvectormap.min.js"></script>
+    <script src="~/adminassests/js/plugin/jsvectormap/world.js"></script>
+
+    <!-- Sweet Alert -->
+    <script src="~/adminassests/js/plugin/sweetalert/sweetalert.min.js"></script>
+
+    <!-- Kaiadmin JS -->
+    <script src="~/adminassests/js/kaiadmin.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+
+
+    <script>
+        $("#lineChart").sparkline([102, 109, 120, 99, 110, 105, 115], {
+            type: "line",
+            height: "70",
+            width: "100%",
+            lineWidth: "2",
+            lineColor: "#177dff",
+            fillColor: "rgba(23, 125, 255, 0.14)",
+        });
+
+        $("#lineChart2").sparkline([99, 125, 122, 105, 110, 124, 115], {
+            type: "line",
+            height: "70",
+            width: "100%",
+            lineWidth: "2",
+            lineColor: "#f3545d",
+            fillColor: "rgba(243, 84, 93, .14)",
+        });
+
+        $("#lineChart3").sparkline([105, 103, 123, 100, 95, 105, 115], {
+            type: "line",
+            height: "70",
+            width: "100%",
+            lineWidth: "2",
+            lineColor: "#ffa534",
+            fillColor: "rgba(255, 165, 52, .14)",
+        });
+    </script>
+</head>
+<body>
+@Html.Partial("adminHeader");
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Movie Showtime and Seat Management</h2>
+
+    <form method="post" enctype="multipart/form-data" class="border p-4 rounded shadow mx-5 my-4" id="showtimeForm">
+        <div class="form-group mb-3">
+            <label for="MovieId">Select Movie</label>
+            <select id="MovieId" name="MovieId" class="form-select" required onchange="fetchMovieRuntime()">
+                <option value="" selected>Select a movie</option>
+                @foreach (var movie in Model)
+                {
+                    <option value="@movie.MovieId" data-runtime="@movie.Runtime">@movie.Title</option>
+                }
+            </select>
+        </div>
+
+        <!-- Container for dynamic showtimes -->
+        <div id="showtimeContainer">
+            <div class="showtime-row d-flex mb-3">
+                <div class="form-group me-3">
+                    <label for="ShowDate">Show Date</label>
+                    <input type="date" class="form-control" name="ShowDates[]" required>
+                </div>
+                <div class="form-group me-3">
+                    <label for="StartTime">Start Time</label>
+                    <input type="time" class="form-control start-time" name="StartTimes[]" required onchange="calculateEndTime(this)">
+                </div>
+                <div class="form-group me-3">
+                    <label for="EndTime">End Time</label>
+                    <input type="time" class="form-control end-time" name="EndTimes[]" required readonly>
+                </div>
+
+                <div class="seat-container border-top mt-3 pt-3">
+                    <h5>Seats</h5>
+                    <div class="seat-row d-flex mb-3 align-items-center">
+                        <div class="form-group me-3">
+                            <label for="SeatRange">Seat Range (e.g., A1-A10)</label>
+                            <input type="text" class="form-control" name="SeatRange[]" required placeholder="e.g., A1-A10" onchange="generateSeatCodes(this)">
+                        </div>
+                        <div class="form-group me-3">
+                            <label for="Price">Price</label>
+                            <input type="number" class="form-control" name="Prices[]" step="0.01" min="0" required>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="IsBooked[]" value="true">
+                            <label>Booked</label>
+                        </div>
+                        <i class="ri-subtract-line ms-3" style="font-size:30px;cursor:pointer" onclick="removeSeat(this)"></i>
+                    </div>
+                    <button type="button" class="btn btn-sm btn-secondary" onclick="addSeat(this)">Add Seat</button>
+                </div>
+
+                <i class="ri-add-large-fill ms-3" onclick="addShowtime()" style="font-size:30px;cursor:pointer"></i>
+            </div>
+        </div>
+
+        <div class="d-grid">
+            <button type="submit" class="btn btn-primary mt-4">Add Movie Showtimes and Seats</button>
+        </div>
+    </form>
+</div>
+
+<!-- JavaScript for dynamic functionality -->
+<script>
+    let selectedRuntime = 0;
+
+    function fetchMovieRuntime() {
+        const movieSelect = document.getElementById('MovieId');
+        const selectedOption = movieSelect.options[movieSelect.selectedIndex];
+        selectedRuntime = parseInt(selectedOption.getAttribute('data-runtime'));
+    }
+
+    function calculateEndTime(startTimeInput) {
+        const startTime = startTimeInput.value;
+        const endTimeInput = startTimeInput.closest('.showtime-row').querySelector('.end-time');
+
+        if (startTime) {
+            const [startHours, startMinutes] = startTime.split(':').map(Number);
+            const runtimeHours = Math.floor(selectedRuntime / 60);
+            const runtimeMinutes = selectedRuntime % 60;
+
+            let endHours = startHours + runtimeHours;
+            let endMinutes = startMinutes + runtimeMinutes;
+
+            if (endMinutes >= 60) {
+                endMinutes -= 60;
+                endHours += 1;
+            }
+            if (endHours >= 24) {
+                endHours -= 24;
+            }
+
+            endTimeInput.value = `${String(endHours).padStart(2, '0')}:${String(endMinutes).padStart(2, '0')}`;
+        } else {
+            endTimeInput.value = '';
+        }
+    }
+
+    function addShowtime() {
+        const newRow = `
+                    <div class="showtime-row d-flex mb-3">
+                        <div class="form-group me-3">
+                            <label for="ShowDate">Show Date</label>
+                            <input type="date" class="form-control" name="ShowDates[]" required>
+                        </div>
+                        <div class="form-group me-3">
+                            <label for="StartTime">Start Time</label>
+                            <input type="time" class="form-control start-time" name="StartTimes[]" required onchange="calculateEndTime(this)">
+                        </div>
+                        <div class="form-group me-3">
+                            <label for="EndTime">End Time</label>
+                            <input type="time" class="form-control end-time" name="EndTimes[]" required readonly>
+                        </div>
+
+                        <div class="seat-container border-top mt-3 pt-3">
+                            <h5>Seats</h5>
+                            <div class="seat-row d-flex mb-3 align-items-center">
+                                <div class="form-group me-3">
+                                    <label for="SeatRange">Seat Range (e.g., A1-A10)</label>
+                                    <input type="text" class="form-control" name="SeatRange[]" required placeholder="e.g., A1-A10" onchange="generateSeatCodes(this)">
+                                </div>
+                                <div class="form-group me-3">
+                                    <label for="Price">Price</label>
+                                    <input type="number" class="form-control" name="Prices[]" step="0.01" min="0" required>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="IsBooked[]" value="true">
+                                    <label>Booked</label>
+                                </div>
+                                <i class="ri-subtract-line ms-3" style="font-size:30px;cursor:pointer" onclick="removeSeat(this)"></i>
+                            </div>
+                            <button type="button" class="btn btn-sm btn-secondary" onclick="addSeat(this)">Add Seat</button>
+                        </div>
+
+                        <i class="ri-add-large-fill ms-3" onclick="addShowtime()" style="font-size:30px;cursor:pointer"></i>
+                    </div>`;
+        document.getElementById('showtimeContainer').insertAdjacentHTML('beforeend', newRow);
+    }
+
+    function generateSeatCodes(input) {
+        const rangeInput = input.value.trim();
+        const seatCodes = [];
+        const regex = /^([A-Z]+)(\d+)-([A-Z]+)(\d+)$/; // Matches e.g., A1-A10
+
+        const match = rangeInput.match(regex);
+        if (match) {
+            const startLetter = match[1];
+            const startNumber = parseInt(match[2], 10);
+            const endLetter = match[3];
+            const endNumber = parseInt(match[4], 10);
+
+            const startCharCode = startLetter.charCodeAt(0);
+            const endCharCode = endLetter.charCodeAt(0);
+
+            for (let letter = startCharCode; letter <= endCharCode; letter++) {
+                for (let number = startNumber; number <= endNumber; number++) {
+                    seatCodes.push(String.fromCharCode(letter) + number);
+                }
+            }
+        } else {
+            alert("Invalid seat range format! Use format like 'A1-A10'.");
+            return;
+        }
+
+        // Update hidden inputs for each seat code
+        const seatCodeInputs = input.closest('.seat-row').querySelectorAll('input[name="SeatCodes[]"]');
+        seatCodeInputs.forEach(input => input.remove()); // Remove existing seat code inputs
+
+        seatCodes.forEach(code => {
+            const seatCodeInput = document.createElement('input');
+            seatCodeInput.type = 'hidden';
+            seatCodeInput.name = 'SeatCodes[]';
+            seatCodeInput.value = code;
+            input.closest('.seat-row').appendChild(seatCodeInput);
+        });
+    }
+
+    function removeSeat(button) {
+        button.closest('.seat-row').remove();
+    }
+</script>
+
+<!-- CSS -->
+<style>
+    .showtime-row, .seat-row {
+        align-items: center;
+    }
+
+    .me-3 {
+        margin-right: 1rem;
+    }
+</style>
+</body>
+</html>

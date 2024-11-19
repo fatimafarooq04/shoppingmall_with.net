@@ -1,0 +1,148 @@
+﻿@model List<project.Models.gallery>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Categories Form</title>
+    <link rel="icon"
+          href="assets/img/kaiadmin/favicon.ico"
+          type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+          rel="stylesheet" />
+
+    <!-- Fonts and icons -->
+    <script src="~/adminassests/js/plugin/webfont/webfont.min.js"></script>
+    <script>
+        WebFont.load({
+            google: { families: ["Public Sans:300,400,500,600,700"] },
+            custom: {
+                families: [
+                    "Font Awesome 5 Solid",
+                    "Font Awesome 5 Regular",
+                    "Font Awesome 5 Brands",
+                    "simple-line-icons",
+                ],
+                urls: ["assets/css/fonts.min.css"],
+            },
+            active: function () {
+                sessionStorage.fonts = true;
+            },
+        });
+    </script>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="~/adminassests/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/adminassests/css/plugins.min.css" />
+    <link rel="stylesheet" href="~/adminassests/css/kaiadmin.min.css" />
+
+    <script src="~/assadminassestsets/js/core/jquery-3.7.1.min.js"></script>
+    <script src="~/adminassests/js/core/popper.min.js"></script>
+    <script src="~/adminassests/js/core/bootstrap.min.js"></script>
+
+    <!-- jQuery Scrollbar -->
+    <script src="~/adminassests/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+
+    <!-- Chart JS -->
+    <script src="~/adminassests/js/plugin/chart.js/chart.min.js"></script>
+
+    <!-- jQuery Sparkline -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-sparkline/2.1.2/jquery.sparkline.min.js"></script>
+
+    <!-- Chart Circle -->
+    <script src="~/adminassests/js/plugin/chart-circle/circles.min.js"></script>
+
+    <!-- Datatables -->
+    <script src="~/adminassests/js/plugin/datatables/datatables.min.js"></script>
+
+    <!-- Bootstrap Notify -->
+    <script src="~/adminassests/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
+
+    <!-- jQuery Vector Maps -->
+    <script src="~/adminassests/js/plugin/jsvectormap/jsvectormap.min.js"></script>
+    <script src="~/adminassests/js/plugin/jsvectormap/world.js"></script>
+
+    <!-- Sweet Alert -->
+    <script src="~/adminassests/js/plugin/sweetalert/sweetalert.min.js"></script>
+
+    <!-- Kaiadmin JS -->
+    <script src="~/adminassests/js/kaiadmin.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+
+
+    <script>
+        $("#lineChart").sparkline([102, 109, 120, 99, 110, 105, 115], {
+            type: "line",
+            height: "70",
+            width: "100%",
+            lineWidth: "2",
+            lineColor: "#177dff",
+            fillColor: "rgba(23, 125, 255, 0.14)",
+        });
+
+        $("#lineChart2").sparkline([99, 125, 122, 105, 110, 124, 115], {
+            type: "line",
+            height: "70",
+            width: "100%",
+            lineWidth: "2",
+            lineColor: "#f3545d",
+            fillColor: "rgba(243, 84, 93, .14)",
+        });
+
+        $("#lineChart3").sparkline([105, 103, 123, 100, 95, 105, 115], {
+            type: "line",
+            height: "70",
+            width: "100%",
+            lineWidth: "2",
+            lineColor: "#ffa534",
+            fillColor: "rgba(255, 165, 52, .14)",
+        });
+    </script>
+</head>
+
+<body>
+    @Html.Partial("adminheader")
+    <div class="container mt-5">
+        <div class="row" style="margin-top:30px">
+            <h1 class="text-center">Gallery Management</h1>
+            <a href="@Url.Action("gallery", "Home")" class="btn btn-success mb-3">Add New Image</a>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Images</th>
+                        <th scope="col">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var galleryItem in Model)
+                    {
+                        <tr>
+                            <th scope="row">@galleryItem.GalleryID</th>
+                            <td>
+                                @if (!string.IsNullOrEmpty(galleryItem.ImageURL))
+                                {
+                                    <img src="~/galleryimages/@galleryItem.ImageURL" height="50" width="50" class="rounded-circle" style="margin-right: 5px;" />
+                                }
+                                else
+                                {
+                                    <span>No images available</span>
+                                }
+                            </td>
+                            <td>
+                                <a href="@Url.Action("EditGallery", "Admin", new { id = galleryItem.GalleryID })" class="btn btn-primary btn-sm">Edit</a>
+                                <a href="@Url.Action("Delete", "Admin", new { id = galleryItem.GalleryID })" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure you want to delete this gallery item?');">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

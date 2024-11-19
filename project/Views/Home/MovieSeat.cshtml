@@ -1,0 +1,378 @@
+﻿@model project.Models.MovieViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Movie Ticket Booking</title>
+
+    <style>
+        body {
+            background-color: #032533;
+            color: #fff;
+            font-family: Arial, sans-serif; /* Change the font for better readability */
+            margin: 0;
+            padding: 0;
+        }
+
+        #Main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            padding: 140px; /* Reduced padding for a cleaner look */
+            text-align: center;
+        }
+
+        .movie-container, .showtime-container {
+            margin: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+            .movie-container label, .showtime-container label {
+                font-size: 18px;
+                font-weight: bold;
+                margin-right: 10px;
+                color: #FFD700; /* Gold color for visibility */
+            }
+
+            .movie-container select, .showtime-container select {
+                background-color: #fff;
+                border: 1px solid #ccc; /* Add border for better definition */
+                border-radius: 5px;
+                font-size: 16px;
+                padding: 10px; /* Increased padding for comfort */
+                cursor: pointer;
+                transition: background-color 0.3s ease; /* Smooth transition effect */
+            }
+
+                .movie-container select:hover, .showtime-container select:hover {
+                    background-color: #f0f0f0; /* Light gray on hover */
+                }
+
+        .screen {
+            background-color: #ccc; /* Slightly darker for contrast */
+            height: 160px;
+            width: 80%;
+            border-bottom-right-radius: 40px;
+            border-bottom-left-radius: 40px;
+            margin: 20px auto;
+            transform: rotateX(-58deg);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Deeper shadow for more depth */
+        }
+
+        .row {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 15px; /* Increased space between rows */
+        }
+
+        .seat {
+            width: 50px; /* Increased width for better accessibility */
+            height: 50px; /* Increased height */
+            background-color: #4CAF50;
+            margin: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: transform 0.2s; /* Smooth scaling effect */
+            color: white;
+        }
+
+        .sold {
+            background-color: #f44336;
+        }
+
+        .seat-code {
+            color: white;
+            font-weight: bold;
+        }
+
+        .seat.selected {
+            background-color: #005e04; /* A lighter green for selected seats */
+            transform: scale(1.1); /* Scale up selected seat */
+        }
+
+        .seat.sold {
+            background-color: #ff4c4c;
+            pointer-events: none;
+        }
+
+        .seat:not(.sold):hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+        }
+
+        .status-boxes {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .status-box {
+            width: 60px; /* Adjusted for better proportion */
+            height: 60px;
+            border-radius: 5px;
+            margin: 0 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: #fff;
+            font-size: 18px; /* Increased font size */
+        }
+
+        .sold-box {
+            background-color: #f44336;
+        }
+
+        .available-box {
+            background-color: #4CAF50;
+            width: 150px;
+        }
+
+        p.text {
+            margin: 20px 0;
+            font-size: 22px; /* Increased font size */
+            font-weight: bold;
+        }
+
+            p.text span {
+                color: #FFD700;
+                font-weight: bold;
+            }
+
+        #noSeatsMessage {
+            display: none;
+            font-size: 22px; /* Increased font size for visibility */
+            margin-top: 20px;
+            color: #FFD700;
+        }
+
+        .next-button {
+            background-color: #4CAF50;
+            color: white;
+            font-size: 20px; /* Increased font size */
+            padding: 12px 24px; /* Increased padding for comfort */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: background-color 0.3s ease; /* Smooth transition */
+        }
+
+            .next-button:hover {
+                background-color: #45a049; /* Darker green on hover */
+            }
+
+    </style>
+</head>
+<body>
+    @Html.Partial("userheader")
+
+    <div id="Main">
+        <!-- Movie Selection -->
+        <div class="movie-container">
+            <label>Select a movie:</label>
+            <select id="movie" onchange="updateShowtimes(this.value)">
+                @foreach (var movie in Model.Movies)
+                {
+                    <option value="@movie.MovieId">
+                        @movie.Title
+                    </option>
+                }
+            </select>
+
+            <label for="showtime">Select a showtime:</label>
+            <select id="showtime" onchange="updateSeatLayout(this.value)" min="@DateTime.Now.ToString("yyyy-MM-dd")">
+                <option value="">-- Select Showtime --</option>
+            </select>
+        </div>
+
+        <!-- Status Boxes -->
+        <div class="status-boxes">
+            <div class="status-box sold-box">Sold</div>
+            <div class="status-box available-box">Available</div>
+        </div>
+
+        <!-- Seat Layout -->
+        <div class="container" id="seatLayout">
+            <div class="screen"></div>
+            <div class="any" id="seatsRow">
+                <!-- Dynamic seat rows will be populated here -->
+            </div>
+        </div>
+
+        <p id="noSeatsMessage">No seats available.</p> <!-- Message for no seats -->
+
+        <p class="text">
+            You have selected <span id="count">0</span> seat(s) for a total price of RS.<span id="totals">0</span>
+        </p>
+        <button class="next-button" onclick="goToForm()">Next</button>
+
+    </div>
+
+    @Html.Partial("userfooter")
+
+    <script>
+        let selectedSeats = [];
+        const seatPrices = {}; // Adjust according to your pricing logic
+
+        window.onload = function () {
+            const movieId = new URLSearchParams(window.location.search).get('movieId');
+            const showtimeId = new URLSearchParams(window.location.search).get('showtimeId');
+
+            if (movieId) {
+                document.getElementById('movie').value = movieId;
+                updateShowtimes(movieId); // Populate showtimes
+            }
+
+            if (showtimeId) {
+                updateSeatLayout(showtimeId); // Populate seat layout
+            }
+        };
+
+        // Update showtime options when a movie is selected
+        function updateShowtimes(movieId) {
+            const showtimeSelect = document.getElementById('showtime');
+            showtimeSelect.innerHTML = '<option value="">-- Select Showtime --</option>';
+
+            fetch(`/Home/GetShowtimes?movieId=${movieId}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.length === 0) {
+                        showtimeSelect.innerHTML = '<option>No showtimes available</option>';
+                        document.getElementById('seatsRow').innerHTML = ''; // Clear seats
+                        document.getElementById('noSeatsMessage').style.display = 'block'; // Show no seats message
+                    } else {
+                        document.getElementById('noSeatsMessage').style.display = 'none'; // Hide no seats message
+                        data.forEach((showtime, index) => {
+                            const option = document.createElement('option');
+                            option.value = showtime.showtimeId;
+                            option.textContent = `${showtime.showDate} ${showtime.startTime} - ${showtime.endTime}`;
+
+                            showtimeSelect.appendChild(option);
+
+                            // Automatically select the first showtime
+                            if (index === 0) {
+                                option.selected = true;
+                                updateSeatLayout(showtime.showtimeId); // Populate seats for the first showtime
+                            }
+                        });
+                    }
+                })
+                .catch(error => console.error('Error fetching showtimes:', error));
+        }
+
+        function updateSeatLayout(showtimeId) {
+            const seatsRow = document.getElementById('seatsRow');
+            seatsRow.innerHTML = ''; // Clear existing seats
+            selectedSeats = []; // Reset selected seats
+            updateSelectionDisplay(); // Update seat count and price display
+
+            fetch(`/Home/GetSeats?showtimeId=${showtimeId}`)
+                .then(response => response.json())
+                .then(data => {
+                    const rows = { 'A': [], 'B': [], 'C': [], 'D': [], 'E': [] }; // Initialize seat rows
+
+                    // Group seats by row and store prices
+                    data.forEach(seat => {
+                        const seatRow = seat.seatCode.charAt(0); // Extract row letter
+                        rows[seatRow].push(seat); // Add seat to the corresponding row
+                        seatPrices[seat.seatCode] = seat.price; // Store seat price
+                    });
+
+                    // Render each row dynamically
+                    for (const row in rows) {
+                        const rowDiv = document.createElement('div');
+                        rowDiv.className = 'row';
+                        rows[row].forEach(seat => {
+                            const seatDiv = document.createElement('div');
+                            seatDiv.className = `seat ${seat.isBooked ? 'sold' : ''}`; // Apply 'sold' class if booked
+                            seatDiv.textContent = seat.seatCode; // Show seat code
+                            seatDiv.onclick = () => toggleSeatSelection(seat); // Add click handler
+
+                            rowDiv.appendChild(seatDiv);
+                        });
+                        seatsRow.appendChild(rowDiv); // Append row to the layout
+                    }
+
+                    if (data.length === 0) {
+                        document.getElementById('noSeatsMessage').style.display = 'block'; // Show no seats message
+                    }
+                })
+                .catch(error => console.error('Error fetching seats:', error));
+        }
+
+
+        function toggleSeatSelection(seat) {
+            if (seat.isBooked) {
+                alert('This seat is already sold!');
+                return;
+            }
+
+            const seatElement = [...document.querySelectorAll('.seat')]
+                .find(element => element.textContent.trim() === seat.seatCode);
+
+            const index = selectedSeats.indexOf(seat.seatCode);
+
+            if (index === -1) {
+                selectedSeats.push(seat.seatCode); // Add to selected seats
+                seatElement.classList.add('selected'); // Highlight seat
+            } else {
+                selectedSeats.splice(index, 1); // Remove from selection
+                seatElement.classList.remove('selected'); // Remove highlight
+            }
+
+            updateSelectionDisplay(); // Update the display
+        }
+
+
+        // Update the display for selected seats and total price
+        function updateSelectionDisplay() {
+            const countElement = document.getElementById('count');
+            const totalsElement = document.getElementById('totals');
+            countElement.textContent = selectedSeats.length; // Update selected seat count
+
+            // Calculate total price based on selected seat prices
+            const totalPrice = selectedSeats.reduce((total, seatCode) => {
+                return total + (seatPrices[seatCode] || 0); // Add seat price or 0 if not found
+            }, 0);
+
+            totalsElement.textContent = totalPrice; // Update total price
+        }
+        function goToForm() {
+            const movieSelect = document.getElementById('movie');
+            const showtimeSelect = document.getElementById('showtime');
+
+            const selectedMovieId = movieSelect.value; // Get selected movie ID
+            const selectedShowtimeId = showtimeSelect.value; // Get selected showtime ID
+
+            // Join selected seats into a comma-separated string
+            const selectedSeatsString = selectedSeats.join(',');
+
+            // Check if any seat is selected
+            if (selectedSeats.length === 0) {
+                alert('Please select at least one seat.'); // Show error message
+                return; // Exit the function if no seat is selected
+            }
+
+            // Build the URL for the next page, including the selected values
+            const nextPageUrl = `/Home/Book?movieId=${selectedMovieId}&showtimeId=${selectedShowtimeId}&seats=${selectedSeatsString}`;
+
+            // Redirect to the next page
+            window.location.href = nextPageUrl;
+        }
+
+
+
+    </script>
+</body>
+</html>

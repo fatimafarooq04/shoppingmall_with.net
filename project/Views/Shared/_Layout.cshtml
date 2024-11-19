@@ -1,0 +1,65 @@
+﻿
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>@ViewData["Title"] - project</title>
+   
+    @* user links *@
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+
+        <link rel="stylesheet" href="~/assests/css/open-iconic-bootstrap.min.css">
+        <link rel="stylesheet" href="~/assests/css/animate.css">
+
+        <link rel="stylesheet" href="~/assests/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="~/assests/owl.theme.default.min.css">
+        <link rel="stylesheet" href="~/assests/css/magnific-popup.css">
+
+        <link rel="stylesheet" href="~/assests/css/aos.css">
+
+        <link rel="stylesheet" href="css/ionicons.min.css">
+
+        <link rel="stylesheet" href="~/assests/css/bootstrap-datepicker.css">
+        <link rel="stylesheet" href="~/assests/css/jquery.timepicker.css">
+
+
+        <link rel="stylesheet" href="~/assests/css/flaticon.css">
+        <link rel="stylesheet" href="~/assests/css/icomoon.css">
+        <link rel="stylesheet" href="~/assests/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.4.0/fonts/remixicon.css"
+          rel="stylesheet" />
+    </head>
+    <body>
+
+
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+
+
+        <script src="~/assests/js/jquery.min.js"></script>
+        <script src="~/assests/js/jquery-migrate-3.0.1.min.js"></script>
+        <script src="~/assests/js/popper.min.js"></script>
+        <script src="~/assests/js/bootstrap.min.js"></script>
+        <script src="~/assests/js/jquery.easing.1.3.js"></script>
+        <script src="~/assests/js/jquery.waypoints.min.js"></script>
+        <script src="~/assests/js/jquery.stellar.min.js"></script>
+        <script src="~/assests/js/owl.carousel.min.js"></script>
+        <script src="~/assests/js/jquery.magnific-popup.min.js"></script>
+        <script src="~/assests/js/aos.js"></script>
+        <script src="~/assests/js/jquery.animateNumber.min.js"></script>
+        <script src="~/assests/js/bootstrap-datepicker.js"></script>
+        <script src="~/assests/js/scrollax.min.js"></script>
+        <script src="~/assests/js/google-map.js"></script>
+        <script src="~/assests/js/main.js"></script>
+
+
+
+      
+        @await RenderSectionAsync("Scripts", required: false)
+    </body>
+</html>
+

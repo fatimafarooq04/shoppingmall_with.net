@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DANISH LAPTOP\\Desktop\\project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|c:\\users\\danish laptop\\desktop\\project\\models\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:models\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|c:\\users\\danish laptop\\desktop\\project\\views\\home\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\home\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|c:\\users\\danish laptop\\desktop\\project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|c:\\users\\danish laptop\\desktop\\project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|c:\\users\\danish laptop\\desktop\\project\\views\\home\\bookingconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{313BB60B-B85A-4DC9-B08A-12075B2BC9FB}|project.csproj|solutionrelative:views\\home\\bookingconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 309,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Shop.cshtml",
+              "DocumentMoniker": "C:\\Users\\DANISH LAPTOP\\Desktop\\project\\Views\\Home\\Shop.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Shop.cshtml",
+              "ToolTip": "C:\\Users\\DANISH LAPTOP\\Desktop\\project\\Views\\Home\\Shop.cshtml",
+              "RelativeToolTip": "Views\\Home\\Shop.cshtml",
+              "ViewState": "AgIAAPsAAAAAAAAAAAAAAAUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T00:16:14.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "C:\\Users\\DANISH LAPTOP\\Desktop\\project\\Models\\Connection.cs",
+              "RelativeDocumentMoniker": "Models\\Connection.cs",
+              "ToolTip": "C:\\Users\\DANISH LAPTOP\\Desktop\\project\\Models\\Connection.cs*",
+              "RelativeToolTip": "Models\\Connection.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T00:10:19.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\DANISH LAPTOP\\Desktop\\project\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\DANISH LAPTOP\\Desktop\\project\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAADUAAACgmZmZmZnzvzwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T00:07:05.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DANISH LAPTOP\\Desktop\\project\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\DANISH LAPTOP\\Desktop\\project\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-23T00:03:16.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookingConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\DANISH LAPTOP\\Desktop\\project\\Views\\Home\\BookingConfirmation.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\BookingConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\DANISH LAPTOP\\Desktop\\project\\Views\\Home\\BookingConfirmation.cshtml",
+              "RelativeToolTip": "Views\\Home\\BookingConfirmation.cshtml",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAmwI0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T00:01:05.563Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

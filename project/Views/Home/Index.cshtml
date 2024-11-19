@@ -1,0 +1,315 @@
+﻿@model IEnumerable<project.Models.Floors>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Shopping Mall</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+	<style>
+		.video-container {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100vh;
+			overflow: hidden;
+			z-index: -1;
+		}
+
+		.background-video {
+			position: absolute;
+			top: 0;
+			left: 0;
+			min-width: 100%;
+			min-height: 100%;
+			width: auto;
+			height: auto;
+			z-index: -1;
+			object-fit: cover;
+		}
+
+		.overlay {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100vh;
+			background: rgba(0, 0, 0, 0.6);
+		}
+
+		#about {
+			height: 100vh;
+			width: 100%;
+			background-color: white;
+		}
+
+		.card-hover {
+			transition: all 0.3s ease-in-out;
+			position: relative;
+			overflow: hidden;
+		}
+
+			.card-hover:hover {
+				transform: translateY(-10px);
+				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+			}
+
+			.card-hover::before {
+				content: '';
+				position: absolute;
+				top: 0;
+				left: -100%;
+				width: 100%;
+				height: 100%;
+				background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+				transition: all 0.6s;
+			}
+
+			.card-hover:hover::before {
+				left: 100%;
+			}
+
+		.card-img-top {
+			transition: all 0.5s ease-in-out;
+			height: 300px;
+			/* Set a fixed height for all images */
+			object-fit: cover;
+			/* Ensure images cover the area without distortion */
+		}
+
+		.card-hover:hover .card-img-top {
+			transform: scale(1.1);
+		}
+
+		.floor-text {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: white;
+			font-size: 28px;
+			font-weight: bold;
+			text-align: center;
+			text-transform: uppercase;
+			text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+			background-color: rgba(0, 0, 0, 0.5);
+			padding: 10px 20px;
+			border-radius: 5px;
+		}
+
+		.floor-tag {
+			position: absolute;
+			top: 20px;
+			right: 20px;
+			background-color: #007bff;
+			color: white;
+			padding: 5px 10px;
+			border-radius: 3px;
+			font-size: 14px;
+			font-weight: bold;
+		}
+
+		.movie-card {
+			position: relative;
+			overflow: hidden;
+			transition: transform 0.3s;
+		}
+
+			.movie-card:hover {
+				transform: scale(1.05);
+			}
+
+		.overlay1 {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background-color: rgba(0, 0, 0, 0.6);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			opacity: 0;
+			transition: opacity 0.3s;
+		}
+
+		.movie-card:hover .overlay1 {
+			opacity: 1;
+		}
+	</style>
+</head>
+
+<body class="goto-here">
+	@Html.Partial("userheader")
+
+	<section id="home-section" class="hero">
+		<div class="video-container">
+			<video autoplay loop muted playsinline class="background-video">
+				<source src="./assests/images/No Copyright Shopping Mall Stock Footage Free.mp4" type="video/mp4">
+			</video>
+			<div class="overlay"></div>
+		</div>
+		<div class="container-fluid p-0">
+			<div class="row d-md-flex no-gutters slider-text align-items-center justify-content-center">
+				<div class="one-forth d-flex align-items-center ftco-animate">
+					<div class="text">
+						<div class="horizontal" style="display:flex;flex-direction:column;justify-content:center;align-items:center;height:100vh">
+							<h1 class="mb-4 mt-3 text-white" style="font-weight:800">Shop 'Til You Drop!</h1>
+							<p class="mb-4 text-white" style="font-weight:700;font-size:20px;width:550px;text-align:center">Discover the latest trends and exclusive brands at our shopping mall. Enjoy a world-class shopping experience under one roof!</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Start Mall Information Section -->
+	<section class="container py-5" id="about">
+		<div class="row">
+			<div class="col-lg-8 m-auto text-center">
+				<h2 class="h2">Welcome to ABCD Mall</h2>
+				<p class="text-muted mb-4">Your Ultimate Shopping Destination in Suburban Mumbai</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 mb-4">
+				<img src="https://i.pinimg.com/564x/a3/2e/41/a32e41734c9cd8808e7d372d1a927c98.jpg"
+					 alt="ABCD Mall Exterior" class="img-fluid rounded">
+			</div>
+			<div class="col-md-6 d-flex align-items-center">
+				<div>
+					<h3 class="h4 mb-3">About Our Mall</h3>
+					<p>
+						ABCD Mall, developed by ABCD Developers Pvt Ltd, is a premier shopping destination in suburban
+						Mumbai. This impressive 250,000 sq ft (23,000 m²) mall boasts a striking 700 ft (210 m)
+						frontage, designed by the renowned Cooper and their partners.
+					</p>
+					<ul class="list-unstyled">
+						<li><i class="fas fa-building text-primary me-2"></i>4-storey air-conditioned complex</li>
+						<li>
+							<i class="fas fa-expand-arrows-alt text-primary me-2"></i>80,000 sq ft (7,000 m²) per floor
+						</li>
+						<li><i class="fas fa-car text-primary me-2"></i>7-level car parking facility</li>
+						<li><i class="fas fa-utensils text-primary me-2"></i>Diverse food court</li>
+						<li><i class="fas fa-book text-primary me-2"></i>Moving booking system</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Mall Information Section -->
+	<!-- Start Categories of The Month -->
+	<section class="container py-5 mt-5">
+
+		<div class="row text-center pt-3">
+			<div class="col-lg-6 m-auto">
+				<h1 class="h1">Mall Floors</h1>
+				<p>
+					Explore our mall's diverse offerings across three floors.
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			@foreach (var floor in Model)
+			{
+				<div class="col-12 col-md-4 p-5 mt-3">
+					<div class="card h-100 card-hover">
+						<a href="@(
+                    floor.Description.ToLower().Contains("foodcourt")
+                    ? Url.Action("FoodCourt", new { floorid = floor.FloorID })
+                    : Url.Action("Shop", new { floorid = floor.FloorID })
+                )">
+							<img src="https://i.pinimg.com/564x/db/36/3f/db363f13cf495926c1202af7f670c5a1.jpg"
+								 class="card-img-top" alt="Ground Floor">
+							<div class="floor-text">@floor.Description</div>
+						</a>
+					</div>
+				</div>
+			}
+		</div>
+		<div class="row text-center pt-4">
+			<div class="col-lg-12">
+				<a asp-controller="Home" asp-action="Shop" class="btn btn-primary p-3">Explore Our Shops</a>
+			</div>
+		</div>
+	</section>
+	<!-- End Categories of The Month -->
+	<section class="ftco-section ftco-no-pt ftco-no-pb">
+		<div class="container">
+			<div class="row no-gutters ftco-services">
+				<div class="col-lg-4 text-center d-flex align-self-stretch ftco-animate">
+					<div class="media block-6 services p-4 py-md-5">
+						<div class="icon d-flex justify-content-center align-items-center mb-4">
+							<span class="flaticon-bag"></span>
+						</div>
+						<div class="media-body">
+							<h3 class="heading">Free Shipping</h3>
+							<p>
+								Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+								there live the blind texts.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 text-center d-flex align-self-stretch ftco-animate">
+					<div class="media block-6 services p-4 py-md-5">
+						<div class="icon d-flex justify-content-center align-items-center mb-4">
+							<span class="flaticon-customer-service"></span>
+						</div>
+						<div class="media-body">
+							<h3 class="heading">Support Customer</h3>
+							<p>
+								Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+								there live the blind texts.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 text-center d-flex align-self-stretch ftco-animate">
+					<div class="media block-6 services p-4 py-md-5">
+						<div class="icon d-flex justify-content-center align-items-center mb-4">
+							<span class="flaticon-payment-security"></span>
+						</div>
+						<div class="media-body">
+							<h3 class="heading">Secure Payments</h3>
+							<p>
+								Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+								there live the blind texts.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+	@Html.Partial("userfooter")
+
+
+
+	<!-- loader -->
+	<div id="ftco-loader" class="show fullscreen">
+		<svg class="circular" width="48px" height="48px">
+			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+					stroke="#F96D00" />
+		</svg>
+	</div>
+
+
+
+
+</body>
+
+</html>

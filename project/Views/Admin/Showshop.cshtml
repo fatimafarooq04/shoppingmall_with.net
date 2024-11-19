@@ -1,0 +1,212 @@
+﻿@model List<project.Models.Shop>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Categories Form</title>
+    <link rel="icon"
+          href="assets/img/kaiadmin/favicon.ico"
+          type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+          rel="stylesheet" />
+
+    <!-- Fonts and icons -->
+    <script src="~/adminassests/js/plugin/webfont/webfont.min.js"></script>
+    <script>
+        WebFont.load({
+            google: { families: ["Public Sans:300,400,500,600,700"] },
+            custom: {
+                families: [
+                    "Font Awesome 5 Solid",
+                    "Font Awesome 5 Regular",
+                    "Font Awesome 5 Brands",
+                    "simple-line-icons",
+                ],
+                urls: ["assets/css/fonts.min.css"],
+            },
+            active: function () {
+                sessionStorage.fonts = true;
+            },
+        });
+    </script>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="~/adminassests/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/adminassests/css/plugins.min.css" />
+    <link rel="stylesheet" href="~/adminassests/css/kaiadmin.min.css" />
+
+    <script src="~/assadminassestsets/js/core/jquery-3.7.1.min.js"></script>
+    <script src="~/adminassests/js/core/popper.min.js"></script>
+    <script src="~/adminassests/js/core/bootstrap.min.js"></script>
+
+    <!-- jQuery Scrollbar -->
+    <script src="~/adminassests/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+
+    <!-- Chart JS -->
+    <script src="~/adminassests/js/plugin/chart.js/chart.min.js"></script>
+
+    <!-- jQuery Sparkline -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-sparkline/2.1.2/jquery.sparkline.min.js"></script>
+
+    <!-- Chart Circle -->
+    <script src="~/adminassests/js/plugin/chart-circle/circles.min.js"></script>
+
+    <!-- Datatables -->
+    <script src="~/adminassests/js/plugin/datatables/datatables.min.js"></script>
+
+    <!-- Bootstrap Notify -->
+    <script src="~/adminassests/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
+
+    <!-- jQuery Vector Maps -->
+    <script src="~/adminassests/js/plugin/jsvectormap/jsvectormap.min.js"></script>
+    <script src="~/adminassests/js/plugin/jsvectormap/world.js"></script>
+
+    <!-- Sweet Alert -->
+    <script src="~/adminassests/js/plugin/sweetalert/sweetalert.min.js"></script>
+
+    <!-- Kaiadmin JS -->
+    <script src="~/adminassests/js/kaiadmin.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+
+
+    <script>
+        $("#lineChart").sparkline([102, 109, 120, 99, 110, 105, 115], {
+            type: "line",
+            height: "70",
+            width: "100%",
+            lineWidth: "2",
+            lineColor: "#177dff",
+            fillColor: "rgba(23, 125, 255, 0.14)",
+        });
+
+        $("#lineChart2").sparkline([99, 125, 122, 105, 110, 124, 115], {
+            type: "line",
+            height: "70",
+            width: "100%",
+            lineWidth: "2",
+            lineColor: "#f3545d",
+            fillColor: "rgba(243, 84, 93, .14)",
+        });
+
+        $("#lineChart3").sparkline([105, 103, 123, 100, 95, 105, 115], {
+            type: "line",
+            height: "70",
+            width: "100%",
+            lineWidth: "2",
+            lineColor: "#ffa534",
+            fillColor: "rgba(255, 165, 52, .14)",
+        });
+    </script>
+</head>
+
+<body>
+    @Html.Partial("adminHeader")
+
+    <div class="container mt-5">
+        <div class="row" style="margin-top:50px">
+            <h1 class="text-center">Shop Data</h1>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Shop Name</th>
+                        <th scope="col">Card Image</th>
+                        <th scope="col">Category</th>
+                        <th scope="col">Floor</th>
+                        <th scope="col">Images</th>
+                        <th scope="col">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var shop in Model)
+                    {
+                        <tr>
+                            <th scope="row">@shop.ShopID</th>
+                            <td>@shop.ShopName</td>
+                            <td>
+                                <img src="~/shopimages/@shop.ImageURL" height="50" width="50" class="rounded-circle" />
+                            </td>
+                            <td>@shop.Categories?.CategoryName</td>
+                            <td>@shop.Floors?.Description</td>
+                            <td>
+                                @if (shop.ShopImages != null && shop.ShopImages.Any())
+                                {
+                                    @foreach (var images in shop.ShopImages.Take(3))
+                                    {
+                                        <img src="~/shopimages/@images.ImageURL" height="50" width="50" class="rounded-circle" />
+                                    }
+                                }
+                                else
+                                {
+                                    <span>No images available</span>
+                                }
+                            </td>
+                            <td>
+                                <!-- Button to trigger modal -->
+                                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#shopDetailsModal-@shop.ShopID">
+                                    View Details
+                                </button>
+                                <button class="btn btn-primary">
+                                    <a asp-controller="Admin" asp-action="EditShop" asp-route-id="@shop.ShopID"> Edit</a>
+                                </button>
+                                <form asp-action="DeleteShop" method="post" style="display:inline;">
+                                    <input type="hidden" name="id" value="@shop.ShopID" />
+                                    <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this shop?');">Delete</button>
+                                </form>
+                            </td>
+                        </tr>
+
+                        <!-- Modal for Shop Details -->
+                        <div class="modal fade" id="shopDetailsModal-@shop.ShopID" tabindex="-1" aria-labelledby="shopDetailsModalLabel-@shop.ShopID" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="shopDetailsModalLabel-@shop.ShopID">@shop.ShopName</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h4>Shop Description</h4>
+                                        <p>@shop.Description</p>
+                                        <h4>Shop Location</h4>
+                                        <p>@shop.Location</p>
+                                        <h4>Shop Phone</h4>
+                                        <p>@shop.Phone</p>
+                                        <h4>Shop Email</h4>
+                                        <p>@shop.Email</p>
+                                        <h4>Shop StoreHours</h4>
+                                        <p>@shop.StoreHours</p>
+
+                                        <h4>Images</h4>
+                                        <div class="shop-images">
+                                            @if (shop.ShopImages != null && shop.ShopImages.Any())
+                                            {
+                                                @foreach (var image in shop.ShopImages)
+                                                {
+                                                    <img src="~/shopimages/@image.ImageURL" height="100" width="100" class="rounded-circle m-1" />
+                                                }
+                                            }
+                                            else
+                                            {
+                                                <span>No images available</span>
+                                            }
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

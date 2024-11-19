@@ -1,0 +1,153 @@
+﻿@model project.Models.BookingViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Confirm Booking</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        /* Updated styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        #Main {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto; /* Center the container */
+            margin-bottom: 30px;
+        }
+
+        .form-container, .details-container {
+            flex: 1; /* Allow both containers to take equal space */
+            margin: 10px; /* Space between containers */
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 10px 4px 8px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        h2 {
+            color: #4CAF50; /* Heading color */
+            margin-bottom: 15px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+            .form-group label {
+                display: block;
+                margin-bottom: 5px;
+                font-weight: bold;
+                color: #555; /* Label color */
+            }
+
+            .form-group input {
+                width: 100%;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                font-size: 16px;
+                box-sizing: border-box; /* Include padding in width */
+            }
+
+        .next-button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 12px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s; /* Smooth transition */
+            width: 100%; /* Full width */
+        }
+
+            .next-button:hover {
+                background-color: #45a049; /* Darker green on hover */
+            }
+
+        .total-price {
+            font-weight: bold;
+            font-size: 18px;
+            color: #d9534f; /* Price color */
+        }
+
+        .error-message {
+            color: #d9534f; /* Error color */
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    @Html.Partial("userheader")
+
+    <div id="Main">
+        <div class="form-container" style="margin-top:90px">
+            <h2>Enter Your Details</h2>
+            <form id="bookingForm" method="post">
+                <input type="hidden" name="movieId" value="@Model.Movie.MovieId" />
+                <input type="hidden" name="showtimeId" value="@Model.Showtime.ShowtimeId" />
+                <input type="hidden" name="seats" value="@string.Join(",", Model.SelectedSeats)" />
+
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" required />
+                </div>
+
+                <div class="error-message" id="error-message" style="display: none;"></div>
+
+                <button type="submit" class="next-button">Confirm Booking</button>
+            </form>
+        </div>
+
+        <div class="details-container" style="margin-top:90px">
+            <h2>Booking Details</h2>
+            <p><strong>Movie:</strong> @Model.Movie.Title</p>
+            <p>
+                <strong>Showtime:</strong>
+                @Model.Showtime.ShowDate.ToString("dd-MM-yyyy")
+                @Model.Showtime.StartTime - @Model.Showtime.EndTime
+            </p>
+            <p><strong>Selected Seats:</strong></p>
+            <ul>
+                @foreach (var seat in Model.SelectedSeats)
+                {
+                    <li>Seat: @seat <span>(Price: @Model.SeatPrices[seat] PKR)</span></li>
+                }
+            </ul>
+            <p class="total-price">Total Price: @Model.SelectedSeats.Sum(seat => Model.SeatPrices[seat]) PKR</p>
+        </div>
+    </div>
+
+    @Html.Partial("userfooter")
+
+
+</body>
+</html>
+m,

@@ -1,0 +1,511 @@
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\appsettings.json
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\project.staticwebassets.runtime.json
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\project.exe
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\project.deps.json
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\project.runtimeconfig.json
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\project.dll
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\project.pdb
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\asp\Desktop\web service\project\obj\Debug\net6.0\project.csproj.AssemblyReference.cache
+C:\Users\asp\Desktop\web service\project\obj\Debug\net6.0\project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asp\Desktop\web service\project\obj\Debug\net6.0\project.AssemblyInfoInputs.cache
+C:\Users\asp\Desktop\web service\project\obj\Debug\net6.0\project.AssemblyInfo.cs
+C:\Users\asp\Desktop\web service\project\obj\Debug\net6.0\project.csproj.CoreCompileInputs.cache
+C:\Users\asp\Desktop\web service\project\obj\Debug\net6.0\project.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\asp\Desktop\web service\project\obj\Debug\net6.0\project.RazorAssemblyInfo.cache
+C:\Users\asp\Desktop\web service\project\obj\Debug\net6.0\project.RazorAssemblyInfo.cs
+C:\Users\asp\Desktop\web service\project\obj\Debug\net6.0\staticwebassets\msbuild.project.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\asp\Desktop\web service\project\obj\Debug\net6.0\staticwebassets\msbuild.build.project.props
+C:\Users\asp\Desktop\web service\project\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.project.props
+C:\Users\asp\Desktop\web service\project\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.project.props
+C:\Users\asp\Desktop\web service\project\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\asp\Desktop\web service\project\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\asp\Desktop\web service\project\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\asp\Desktop\web service\project\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\asp\Desktop\web service\project\obj\Debug\net6.0\scopedcss\bundle\project.styles.css
+C:\Users\asp\Desktop\web service\project\obj\Debug\net6.0\scopedcss\projectbundle\project.bundle.scp.css
+C:\Users\asp\Desktop\web service\project\obj\Debug\net6.0\project.csproj.CopyComplete
+C:\Users\asp\Desktop\web service\project\obj\Debug\net6.0\project.dll
+C:\Users\asp\Desktop\web service\project\obj\Debug\net6.0\refint\project.dll
+C:\Users\asp\Desktop\web service\project\obj\Debug\net6.0\project.pdb
+C:\Users\asp\Desktop\web service\project\obj\Debug\net6.0\project.genruntimeconfig.cache
+C:\Users\asp\Desktop\web service\project\obj\Debug\net6.0\ref\project.dll
+C:\Users\asp\Desktop\web service\project\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\appsettings.json
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\project.staticwebassets.runtime.json
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\project.exe
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\project.deps.json
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\project.runtimeconfig.json
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\project.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\project.pdb
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Student\Desktop\project\project\obj\Debug\net6.0\project.csproj.AssemblyReference.cache
+C:\Users\Student\Desktop\project\project\obj\Debug\net6.0\project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Desktop\project\project\obj\Debug\net6.0\project.AssemblyInfoInputs.cache
+C:\Users\Student\Desktop\project\project\obj\Debug\net6.0\project.AssemblyInfo.cs
+C:\Users\Student\Desktop\project\project\obj\Debug\net6.0\project.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\project\project\obj\Debug\net6.0\project.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Student\Desktop\project\project\obj\Debug\net6.0\project.RazorAssemblyInfo.cache
+C:\Users\Student\Desktop\project\project\obj\Debug\net6.0\project.RazorAssemblyInfo.cs
+C:\Users\Student\Desktop\project\project\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Student\Desktop\project\project\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Student\Desktop\project\project\obj\Debug\net6.0\staticwebassets\msbuild.project.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Student\Desktop\project\project\obj\Debug\net6.0\staticwebassets\msbuild.build.project.props
+C:\Users\Student\Desktop\project\project\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.project.props
+C:\Users\Student\Desktop\project\project\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.project.props
+C:\Users\Student\Desktop\project\project\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Student\Desktop\project\project\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Student\Desktop\project\project\obj\Debug\net6.0\scopedcss\bundle\project.styles.css
+C:\Users\Student\Desktop\project\project\obj\Debug\net6.0\scopedcss\projectbundle\project.bundle.scp.css
+C:\Users\Student\Desktop\project\project\obj\Debug\net6.0\project.csproj.Up2Date
+C:\Users\Student\Desktop\project\project\obj\Debug\net6.0\project.dll
+C:\Users\Student\Desktop\project\project\obj\Debug\net6.0\refint\project.dll
+C:\Users\Student\Desktop\project\project\obj\Debug\net6.0\project.pdb
+C:\Users\Student\Desktop\project\project\obj\Debug\net6.0\project.genruntimeconfig.cache
+C:\Users\Student\Desktop\project\project\obj\Debug\net6.0\ref\project.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\Stripe.net.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\appsettings.json
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\project.staticwebassets.runtime.json
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\project.exe
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\project.deps.json
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\project.runtimeconfig.json
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\project.dll
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\project.pdb
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\Stripe.net.dll
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\asp\Desktop\PROJECT\project\obj\Debug\net6.0\project.csproj.AssemblyReference.cache
+C:\Users\asp\Desktop\PROJECT\project\obj\Debug\net6.0\project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asp\Desktop\PROJECT\project\obj\Debug\net6.0\project.AssemblyInfoInputs.cache
+C:\Users\asp\Desktop\PROJECT\project\obj\Debug\net6.0\project.AssemblyInfo.cs
+C:\Users\asp\Desktop\PROJECT\project\obj\Debug\net6.0\project.csproj.CoreCompileInputs.cache
+C:\Users\asp\Desktop\PROJECT\project\obj\Debug\net6.0\project.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\asp\Desktop\PROJECT\project\obj\Debug\net6.0\project.RazorAssemblyInfo.cache
+C:\Users\asp\Desktop\PROJECT\project\obj\Debug\net6.0\project.RazorAssemblyInfo.cs
+C:\Users\asp\Desktop\PROJECT\project\obj\Debug\net6.0\staticwebassets\msbuild.project.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\asp\Desktop\PROJECT\project\obj\Debug\net6.0\staticwebassets\msbuild.build.project.props
+C:\Users\asp\Desktop\PROJECT\project\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.project.props
+C:\Users\asp\Desktop\PROJECT\project\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.project.props
+C:\Users\asp\Desktop\PROJECT\project\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\asp\Desktop\PROJECT\project\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\asp\Desktop\PROJECT\project\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\asp\Desktop\PROJECT\project\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\asp\Desktop\PROJECT\project\obj\Debug\net6.0\scopedcss\bundle\project.styles.css
+C:\Users\asp\Desktop\PROJECT\project\obj\Debug\net6.0\scopedcss\projectbundle\project.bundle.scp.css
+C:\Users\asp\Desktop\PROJECT\project\obj\Debug\net6.0\project.csproj.CopyComplete
+C:\Users\asp\Desktop\PROJECT\project\obj\Debug\net6.0\project.dll
+C:\Users\asp\Desktop\PROJECT\project\obj\Debug\net6.0\refint\project.dll
+C:\Users\asp\Desktop\PROJECT\project\obj\Debug\net6.0\project.pdb
+C:\Users\asp\Desktop\PROJECT\project\obj\Debug\net6.0\project.genruntimeconfig.cache
+C:\Users\asp\Desktop\PROJECT\project\obj\Debug\net6.0\ref\project.dll
+C:\Users\asp\Desktop\PROJECT\project\bin\Debug\net6.0\BCrypt.Net-Next.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\BCrypt.Net-Next.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\MailKit.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\MimeKit.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\System.Formats.Asn1.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Student\Desktop\project\project\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\appsettings.json
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\project.staticwebassets.runtime.json
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\project.exe
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\project.deps.json
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\project.runtimeconfig.json
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\project.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\project.pdb
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\BCrypt.Net-Next.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\MailKit.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\MimeKit.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\Stripe.net.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\System.Formats.Asn1.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\DANISH LAPTOP\Desktop\project\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\DANISH LAPTOP\Desktop\project\obj\Debug\net6.0\project.csproj.AssemblyReference.cache
+C:\Users\DANISH LAPTOP\Desktop\project\obj\Debug\net6.0\project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DANISH LAPTOP\Desktop\project\obj\Debug\net6.0\project.AssemblyInfoInputs.cache
+C:\Users\DANISH LAPTOP\Desktop\project\obj\Debug\net6.0\project.AssemblyInfo.cs
+C:\Users\DANISH LAPTOP\Desktop\project\obj\Debug\net6.0\project.csproj.CoreCompileInputs.cache
+C:\Users\DANISH LAPTOP\Desktop\project\obj\Debug\net6.0\project.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\DANISH LAPTOP\Desktop\project\obj\Debug\net6.0\project.RazorAssemblyInfo.cache
+C:\Users\DANISH LAPTOP\Desktop\project\obj\Debug\net6.0\project.RazorAssemblyInfo.cs
+C:\Users\DANISH LAPTOP\Desktop\project\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\DANISH LAPTOP\Desktop\project\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\DANISH LAPTOP\Desktop\project\obj\Debug\net6.0\staticwebassets\msbuild.project.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\DANISH LAPTOP\Desktop\project\obj\Debug\net6.0\staticwebassets\msbuild.build.project.props
+C:\Users\DANISH LAPTOP\Desktop\project\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.project.props
+C:\Users\DANISH LAPTOP\Desktop\project\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.project.props
+C:\Users\DANISH LAPTOP\Desktop\project\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\DANISH LAPTOP\Desktop\project\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\DANISH LAPTOP\Desktop\project\obj\Debug\net6.0\scopedcss\bundle\project.styles.css
+C:\Users\DANISH LAPTOP\Desktop\project\obj\Debug\net6.0\scopedcss\projectbundle\project.bundle.scp.css
+C:\Users\DANISH LAPTOP\Desktop\project\obj\Debug\net6.0\project.csproj.Up2Date
+C:\Users\DANISH LAPTOP\Desktop\project\obj\Debug\net6.0\project.dll
+C:\Users\DANISH LAPTOP\Desktop\project\obj\Debug\net6.0\refint\project.dll
+C:\Users\DANISH LAPTOP\Desktop\project\obj\Debug\net6.0\project.pdb
+C:\Users\DANISH LAPTOP\Desktop\project\obj\Debug\net6.0\project.genruntimeconfig.cache
+C:\Users\DANISH LAPTOP\Desktop\project\obj\Debug\net6.0\ref\project.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\appsettings.json
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\project.staticwebassets.runtime.json
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\project.exe
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\project.deps.json
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\project.runtimeconfig.json
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\project.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\project.pdb
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\BCrypt.Net-Next.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\MailKit.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\MimeKit.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\Stripe.net.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\System.Formats.Asn1.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Student\Desktop\E_Project\project\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Student\Desktop\E_Project\project\obj\Debug\net6.0\project.csproj.AssemblyReference.cache
+C:\Users\Student\Desktop\E_Project\project\obj\Debug\net6.0\project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Desktop\E_Project\project\obj\Debug\net6.0\project.AssemblyInfoInputs.cache
+C:\Users\Student\Desktop\E_Project\project\obj\Debug\net6.0\project.AssemblyInfo.cs
+C:\Users\Student\Desktop\E_Project\project\obj\Debug\net6.0\project.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\E_Project\project\obj\Debug\net6.0\project.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Student\Desktop\E_Project\project\obj\Debug\net6.0\project.RazorAssemblyInfo.cache
+C:\Users\Student\Desktop\E_Project\project\obj\Debug\net6.0\project.RazorAssemblyInfo.cs
+C:\Users\Student\Desktop\E_Project\project\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Student\Desktop\E_Project\project\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Student\Desktop\E_Project\project\obj\Debug\net6.0\staticwebassets\msbuild.project.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Student\Desktop\E_Project\project\obj\Debug\net6.0\staticwebassets\msbuild.build.project.props
+C:\Users\Student\Desktop\E_Project\project\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.project.props
+C:\Users\Student\Desktop\E_Project\project\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.project.props
+C:\Users\Student\Desktop\E_Project\project\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Student\Desktop\E_Project\project\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Student\Desktop\E_Project\project\obj\Debug\net6.0\scopedcss\bundle\project.styles.css
+C:\Users\Student\Desktop\E_Project\project\obj\Debug\net6.0\scopedcss\projectbundle\project.bundle.scp.css
+C:\Users\Student\Desktop\E_Project\project\obj\Debug\net6.0\project.csproj.Up2Date
+C:\Users\Student\Desktop\E_Project\project\obj\Debug\net6.0\project.dll
+C:\Users\Student\Desktop\E_Project\project\obj\Debug\net6.0\refint\project.dll
+C:\Users\Student\Desktop\E_Project\project\obj\Debug\net6.0\project.pdb
+C:\Users\Student\Desktop\E_Project\project\obj\Debug\net6.0\project.genruntimeconfig.cache
+C:\Users\Student\Desktop\E_Project\project\obj\Debug\net6.0\ref\project.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\appsettings.json
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\project.staticwebassets.runtime.json
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\project.exe
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\project.deps.json
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\project.runtimeconfig.json
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\project.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\project.pdb
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\BCrypt.Net-Next.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\MailKit.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\MimeKit.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\Stripe.net.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\System.Formats.Asn1.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Student\Desktop\new changes\project\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Student\Desktop\new changes\project\obj\Debug\net6.0\project.csproj.AssemblyReference.cache
+C:\Users\Student\Desktop\new changes\project\obj\Debug\net6.0\project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Desktop\new changes\project\obj\Debug\net6.0\project.AssemblyInfoInputs.cache
+C:\Users\Student\Desktop\new changes\project\obj\Debug\net6.0\project.AssemblyInfo.cs
+C:\Users\Student\Desktop\new changes\project\obj\Debug\net6.0\project.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\new changes\project\obj\Debug\net6.0\project.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Student\Desktop\new changes\project\obj\Debug\net6.0\project.RazorAssemblyInfo.cache
+C:\Users\Student\Desktop\new changes\project\obj\Debug\net6.0\project.RazorAssemblyInfo.cs
+C:\Users\Student\Desktop\new changes\project\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Student\Desktop\new changes\project\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Student\Desktop\new changes\project\obj\Debug\net6.0\staticwebassets\msbuild.project.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Student\Desktop\new changes\project\obj\Debug\net6.0\staticwebassets\msbuild.build.project.props
+C:\Users\Student\Desktop\new changes\project\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.project.props
+C:\Users\Student\Desktop\new changes\project\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.project.props
+C:\Users\Student\Desktop\new changes\project\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Student\Desktop\new changes\project\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Student\Desktop\new changes\project\obj\Debug\net6.0\scopedcss\bundle\project.styles.css
+C:\Users\Student\Desktop\new changes\project\obj\Debug\net6.0\scopedcss\projectbundle\project.bundle.scp.css
+C:\Users\Student\Desktop\new changes\project\obj\Debug\net6.0\project.csproj.Up2Date
+C:\Users\Student\Desktop\new changes\project\obj\Debug\net6.0\project.dll
+C:\Users\Student\Desktop\new changes\project\obj\Debug\net6.0\refint\project.dll
+C:\Users\Student\Desktop\new changes\project\obj\Debug\net6.0\project.pdb
+C:\Users\Student\Desktop\new changes\project\obj\Debug\net6.0\project.genruntimeconfig.cache
+C:\Users\Student\Desktop\new changes\project\obj\Debug\net6.0\ref\project.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\appsettings.json
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\project.staticwebassets.runtime.json
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\project.exe
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\project.deps.json
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\project.runtimeconfig.json
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\project.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\project.pdb
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\BCrypt.Net-Next.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\MailKit.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\MimeKit.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\Stripe.net.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\System.Formats.Asn1.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Student\Desktop\Shopping Mall\project\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Student\Desktop\Shopping Mall\project\obj\Debug\net6.0\project.csproj.AssemblyReference.cache
+C:\Users\Student\Desktop\Shopping Mall\project\obj\Debug\net6.0\project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Desktop\Shopping Mall\project\obj\Debug\net6.0\project.AssemblyInfoInputs.cache
+C:\Users\Student\Desktop\Shopping Mall\project\obj\Debug\net6.0\project.AssemblyInfo.cs
+C:\Users\Student\Desktop\Shopping Mall\project\obj\Debug\net6.0\project.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\Shopping Mall\project\obj\Debug\net6.0\project.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Student\Desktop\Shopping Mall\project\obj\Debug\net6.0\project.RazorAssemblyInfo.cache
+C:\Users\Student\Desktop\Shopping Mall\project\obj\Debug\net6.0\project.RazorAssemblyInfo.cs
+C:\Users\Student\Desktop\Shopping Mall\project\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Student\Desktop\Shopping Mall\project\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Student\Desktop\Shopping Mall\project\obj\Debug\net6.0\staticwebassets\msbuild.project.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Student\Desktop\Shopping Mall\project\obj\Debug\net6.0\staticwebassets\msbuild.build.project.props
+C:\Users\Student\Desktop\Shopping Mall\project\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.project.props
+C:\Users\Student\Desktop\Shopping Mall\project\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.project.props
+C:\Users\Student\Desktop\Shopping Mall\project\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Student\Desktop\Shopping Mall\project\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Student\Desktop\Shopping Mall\project\obj\Debug\net6.0\scopedcss\bundle\project.styles.css
+C:\Users\Student\Desktop\Shopping Mall\project\obj\Debug\net6.0\scopedcss\projectbundle\project.bundle.scp.css
+C:\Users\Student\Desktop\Shopping Mall\project\obj\Debug\net6.0\project.csproj.Up2Date
+C:\Users\Student\Desktop\Shopping Mall\project\obj\Debug\net6.0\project.dll
+C:\Users\Student\Desktop\Shopping Mall\project\obj\Debug\net6.0\refint\project.dll
+C:\Users\Student\Desktop\Shopping Mall\project\obj\Debug\net6.0\project.pdb
+C:\Users\Student\Desktop\Shopping Mall\project\obj\Debug\net6.0\project.genruntimeconfig.cache
+C:\Users\Student\Desktop\Shopping Mall\project\obj\Debug\net6.0\ref\project.dll

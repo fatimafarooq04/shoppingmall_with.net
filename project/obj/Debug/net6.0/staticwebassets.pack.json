@@ -1,0 +1,2813 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\project.bundle.scp.css",
+      "PackagePath": "staticwebassets\\project.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\UserImg\\download-removebg-preview (12).png",
+      "PackagePath": "staticwebassets\\UserImg\\download-removebg-preview (12).png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\VEDIO.mp4",
+      "PackagePath": "staticwebassets\\VEDIO.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\adminassests\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\css\\custom.css",
+      "PackagePath": "staticwebassets\\adminassests\\css\\custom.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\css\\demo.css",
+      "PackagePath": "staticwebassets\\adminassests\\css\\demo.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\css\\demo.css.map",
+      "PackagePath": "staticwebassets\\adminassests\\css\\demo.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\css\\fonts.css",
+      "PackagePath": "staticwebassets\\adminassests\\css\\fonts.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\css\\fonts.min.css",
+      "PackagePath": "staticwebassets\\adminassests\\css\\fonts.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\css\\kaiadmin.css",
+      "PackagePath": "staticwebassets\\adminassests\\css\\kaiadmin.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\css\\kaiadmin.css.map",
+      "PackagePath": "staticwebassets\\adminassests\\css\\kaiadmin.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\css\\kaiadmin.min.css",
+      "PackagePath": "staticwebassets\\adminassests\\css\\kaiadmin.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\css\\plugins.css",
+      "PackagePath": "staticwebassets\\adminassests\\css\\plugins.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\css\\plugins.css.map",
+      "PackagePath": "staticwebassets\\adminassests\\css\\plugins.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\css\\plugins.min.css",
+      "PackagePath": "staticwebassets\\adminassests\\css\\plugins.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\css\\site.css",
+      "PackagePath": "staticwebassets\\adminassests\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\fonts\\fontawesome\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\adminassests\\fonts\\fontawesome\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\fonts\\fontawesome\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\adminassests\\fonts\\fontawesome\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\fonts\\fontawesome\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\adminassests\\fonts\\fontawesome\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\fonts\\fontawesome\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\adminassests\\fonts\\fontawesome\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\fonts\\fontawesome\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\adminassests\\fonts\\fontawesome\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\fonts\\fontawesome\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\adminassests\\fonts\\fontawesome\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\fonts\\fontawesome\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\adminassests\\fonts\\fontawesome\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\fonts\\fontawesome\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\adminassests\\fonts\\fontawesome\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\fonts\\fontawesome\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\adminassests\\fonts\\fontawesome\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\fonts\\fontawesome\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\adminassests\\fonts\\fontawesome\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\fonts\\fontawesome\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\adminassests\\fonts\\fontawesome\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\fonts\\fontawesome\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\adminassests\\fonts\\fontawesome\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\fonts\\fontawesome\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\adminassests\\fonts\\fontawesome\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\fonts\\fontawesome\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\adminassests\\fonts\\fontawesome\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\fonts\\fontawesome\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\adminassests\\fonts\\fontawesome\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\fonts\\simple-line-icons\\Simple-Line-Icons.eot",
+      "PackagePath": "staticwebassets\\adminassests\\fonts\\simple-line-icons\\Simple-Line-Icons.eot"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\fonts\\simple-line-icons\\Simple-Line-Icons.svg",
+      "PackagePath": "staticwebassets\\adminassests\\fonts\\simple-line-icons\\Simple-Line-Icons.svg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\fonts\\simple-line-icons\\Simple-Line-Icons.ttf",
+      "PackagePath": "staticwebassets\\adminassests\\fonts\\simple-line-icons\\Simple-Line-Icons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\fonts\\simple-line-icons\\Simple-Line-Icons.woff",
+      "PackagePath": "staticwebassets\\adminassests\\fonts\\simple-line-icons\\Simple-Line-Icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\fonts\\simple-line-icons\\Simple-Line-Icons.woff2",
+      "PackagePath": "staticwebassets\\adminassests\\fonts\\simple-line-icons\\Simple-Line-Icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\fonts\\summernote\\summernote.eot",
+      "PackagePath": "staticwebassets\\adminassests\\fonts\\summernote\\summernote.eot"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\fonts\\summernote\\summernote.ttf",
+      "PackagePath": "staticwebassets\\adminassests\\fonts\\summernote\\summernote.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\fonts\\summernote\\summernote.woff",
+      "PackagePath": "staticwebassets\\adminassests\\fonts\\summernote\\summernote.woff"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\fonts\\summernote\\summernote.woff2",
+      "PackagePath": "staticwebassets\\adminassests\\fonts\\summernote\\summernote.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\arashmil.jpg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\arashmil.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\bg-404.jpeg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\bg-404.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\blogpost.jpg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\blogpost.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\chadengle.jpg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\chadengle.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\example1-300x300.jpg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\example1-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\example1.jpeg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\example1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\example10-300x300.jpg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\example10-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\example10.jpeg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\example10.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\example11-300x300.jpg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\example11-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\example11.jpeg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\example11.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\example12-300x300.jpg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\example12-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\example12.jpeg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\example12.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\example2-300x300.jpg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\example2-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\example2.jpeg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\example2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\example3-300x300.jpg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\example3-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\example3.jpeg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\example3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\example4-300x300.jpg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\example4-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\example4.jpeg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\example4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\example5-300x300.jpg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\example5-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\example5.jpeg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\example5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\example6-300x300.jpg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\example6-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\example6.jpeg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\example6.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\example7-300x300.jpg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\example7-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\example7.jpeg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\example7.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\example8-300x300.jpg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\example8-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\example8.jpeg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\example8.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\example9-300x300.jpg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\example9-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\example9.jpeg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\example9.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\logo.svg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\logo1.svg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\logo1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\logo2.svg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\logo2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\logoinvoice.svg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\logoinvoice.svg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\product1.jpg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\product1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\product10.jpeg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\product10.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\product11.jpeg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\product11.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\product12.jpeg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\product12.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\product2.jpg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\product2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\product3.jpg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\product3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\product4.jpg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\product4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\product5.jpg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\product5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\product6.jpg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\product6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\product7.jpg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\product7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\examples\\product8.jpg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\examples\\product8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ad.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ad.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ae.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ae.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\af.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\af.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ag.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ag.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ai.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ai.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\al.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\al.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\am.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\am.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\an.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\an.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ao.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ao.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ar.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ar.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\as.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\as.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\at.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\at.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\au.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\au.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\aw.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\aw.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ax.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ax.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\az.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\az.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ba.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ba.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\bb.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\bb.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\bd.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\bd.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\be.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\be.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\bf.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\bf.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\bg.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\bh.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\bh.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\bi.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\bi.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\bj.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\bj.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\bm.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\bm.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\bn.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\bn.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\bo.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\bo.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\br.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\br.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\bs.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\bs.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\bt.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\bt.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\bv.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\bv.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\bw.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\bw.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\by.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\by.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\bz.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\bz.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ca.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ca.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\catalonia.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\catalonia.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\cc.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\cc.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\cd.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\cd.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\cf.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\cf.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\cg.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\cg.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ch.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ch.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ci.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ci.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ck.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ck.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\cl.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\cl.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\cm.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\cm.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\cn.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\cn.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\co.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\co.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\cr.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\cr.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\cs.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\cs.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\cu.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\cu.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\cv.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\cv.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\cx.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\cx.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\cy.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\cy.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\cz.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\cz.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\de.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\de.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\dj.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\dj.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\dk.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\dk.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\dm.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\dm.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\do.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\do.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\dz.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\dz.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ec.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ec.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ee.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ee.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\eg.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\eg.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\eh.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\eh.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\england.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\england.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\er.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\er.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\es.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\es.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\et.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\et.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\europeanunion.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\europeanunion.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\fam.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\fam.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\fi.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\fi.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\fj.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\fj.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\fk.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\fk.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\fm.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\fm.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\fo.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\fo.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\fr.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\fr.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ga.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ga.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\gb.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\gb.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\gd.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\gd.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ge.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ge.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\gf.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\gf.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\gh.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\gh.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\gi.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\gi.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\gl.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\gl.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\gm.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\gm.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\gn.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\gn.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\gp.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\gp.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\gq.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\gq.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\gr.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\gr.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\gs.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\gs.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\gt.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\gt.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\gu.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\gu.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\gw.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\gw.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\gy.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\gy.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\hk.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\hk.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\hm.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\hm.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\hn.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\hn.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\hr.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\hr.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ht.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ht.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\hu.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\hu.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\id.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\id.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ie.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ie.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\il.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\il.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\in.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\in.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\io.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\io.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\iq.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\iq.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ir.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ir.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\is.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\is.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\it.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\it.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\jm.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\jm.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\jo.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\jo.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\jp.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\jp.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ke.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ke.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\kg.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\kg.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\kh.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\kh.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ki.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ki.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\km.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\km.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\kn.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\kn.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\kp.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\kp.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\kr.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\kr.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\kw.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\kw.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ky.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ky.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\kz.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\kz.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\la.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\la.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\lb.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\lb.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\lc.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\lc.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\li.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\li.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\lk.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\lk.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\lr.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\lr.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ls.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ls.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\lt.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\lt.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\lu.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\lu.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\lv.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\lv.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ly.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ly.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ma.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ma.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\mc.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\mc.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\md.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\md.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\me.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\me.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\mg.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\mg.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\mh.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\mh.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\mk.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\mk.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ml.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ml.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\mm.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\mm.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\mn.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\mn.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\mo.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\mo.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\mp.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\mp.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\mq.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\mq.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\mr.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\mr.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ms.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ms.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\mt.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\mt.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\mu.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\mu.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\mv.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\mv.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\mw.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\mw.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\mx.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\mx.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\my.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\my.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\mz.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\mz.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\na.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\na.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\nc.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\nc.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ne.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ne.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\nf.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\nf.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ng.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ng.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ni.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ni.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\nl.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\nl.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\no.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\no.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\np.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\np.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\nr.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\nr.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\nu.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\nu.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\nz.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\nz.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\om.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\om.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\pa.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\pa.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\pe.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\pe.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\pf.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\pf.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\pg.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\pg.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ph.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ph.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\pk.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\pk.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\pl.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\pl.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\pm.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\pm.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\pn.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\pn.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\pr.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\pr.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ps.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ps.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\pt.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\pt.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\pw.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\pw.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\py.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\py.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\qa.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\qa.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\re.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\re.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\readme.txt",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\readme.txt"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ro.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ro.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\rs.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\rs.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ru.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ru.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\rw.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\rw.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\sa.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\sa.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\sb.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\sb.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\sc.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\sc.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\scotland.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\scotland.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\sd.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\sd.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\se.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\se.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\sg.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\sg.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\sh.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\sh.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\si.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\si.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\sj.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\sj.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\sk.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\sk.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\sl.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\sl.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\sm.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\sm.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\sn.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\sn.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\so.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\so.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\sr.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\sr.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\st.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\st.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\sv.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\sv.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\sy.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\sy.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\sz.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\sz.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\tc.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\tc.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\td.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\td.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\tf.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\tf.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\tg.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\tg.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\th.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\th.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\tj.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\tj.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\tk.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\tk.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\tl.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\tl.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\tm.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\tm.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\tn.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\tn.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\to.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\to.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\tr.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\tr.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\tt.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\tt.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\tv.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\tv.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\tw.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\tw.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\tz.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\tz.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ua.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ua.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ug.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ug.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\um.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\um.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\us.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\us.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\uy.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\uy.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\uz.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\uz.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\va.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\va.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\vc.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\vc.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ve.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ve.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\vg.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\vg.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\vi.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\vi.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\vn.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\vn.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\vu.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\vu.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\wales.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\wales.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\wf.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\wf.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ws.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ws.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\ye.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\ye.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\yt.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\yt.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\za.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\za.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\zm.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\zm.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\flags\\zw.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\flags\\zw.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\img-shadow.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\img-shadow.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\jm_denis.jpg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\jm_denis.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\kaiadmin\\demo1.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\kaiadmin\\demo1.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\kaiadmin\\demo2.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\kaiadmin\\demo2.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\kaiadmin\\demo3.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\kaiadmin\\demo3.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\kaiadmin\\demo4.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\kaiadmin\\demo4.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\kaiadmin\\demo5.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\kaiadmin\\demo5.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\kaiadmin\\demo6.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\kaiadmin\\demo6.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\kaiadmin\\demo7.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\kaiadmin\\demo7.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\kaiadmin\\demo8.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\kaiadmin\\demo8.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\kaiadmin\\demo9.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\kaiadmin\\demo9.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\kaiadmin\\favicon.ico",
+      "PackagePath": "staticwebassets\\adminassests\\img\\kaiadmin\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\kaiadmin\\favicon.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\kaiadmin\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\kaiadmin\\favicon.svg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\kaiadmin\\favicon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\kaiadmin\\icon.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\kaiadmin\\icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\kaiadmin\\icon.svg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\kaiadmin\\icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\kaiadmin\\logo_dark.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\kaiadmin\\logo_dark.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\kaiadmin\\logo_dark.svg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\kaiadmin\\logo_dark.svg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\kaiadmin\\logo_documentation.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\kaiadmin\\logo_documentation.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\kaiadmin\\logo_light.png",
+      "PackagePath": "staticwebassets\\adminassests\\img\\kaiadmin\\logo_light.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\kaiadmin\\logo_light.svg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\kaiadmin\\logo_light.svg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\logoproduct.svg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\logoproduct.svg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\logoproduct2.svg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\logoproduct2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\logoproduct3.svg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\logoproduct3.svg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\mlane.jpg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\mlane.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\profile.jpg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\profile2.jpg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\profile2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\sauro.jpg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\sauro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\talha.jpg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\talha.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\undraw\\undraw_Hello_qnas.svg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\undraw\\undraw_Hello_qnas.svg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\undraw\\undraw_Taken_if77.svg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\undraw\\undraw_Taken_if77.svg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\undraw\\undraw_blank_canvas_3rbb.svg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\undraw\\undraw_blank_canvas_3rbb.svg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\undraw\\undraw_creative_team_r90h.svg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\undraw\\undraw_creative_team_r90h.svg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\undraw\\undraw_empty_xct9.svg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\undraw\\undraw_empty_xct9.svg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\undraw\\undraw_no_data_qbuo.svg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\undraw\\undraw_no_data_qbuo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\undraw\\undraw_not_found_60pq.svg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\undraw\\undraw_not_found_60pq.svg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\undraw\\undraw_page_not_found_su7k.svg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\undraw\\undraw_page_not_found_su7k.svg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\undraw\\undraw_sign_in_e6hj.svg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\undraw\\undraw_sign_in_e6hj.svg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\undraw\\undraw_tabs_jf82.svg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\undraw\\undraw_tabs_jf82.svg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\undraw\\undraw_update_uxn2.svg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\undraw\\undraw_update_uxn2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\undraw\\undraw_upgrade_06a0.svg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\undraw\\undraw_upgrade_06a0.svg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\img\\visa.svg",
+      "PackagePath": "staticwebassets\\adminassests\\img\\visa.svg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\js\\core\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\adminassests\\js\\core\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\js\\core\\jquery-3.7.1.min.js",
+      "PackagePath": "staticwebassets\\adminassests\\js\\core\\jquery-3.7.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\js\\core\\popper.min.js",
+      "PackagePath": "staticwebassets\\adminassests\\js\\core\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\js\\demo.js",
+      "PackagePath": "staticwebassets\\adminassests\\js\\demo.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\js\\kaiadmin.js",
+      "PackagePath": "staticwebassets\\adminassests\\js\\kaiadmin.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\js\\kaiadmin.min.js",
+      "PackagePath": "staticwebassets\\adminassests\\js\\kaiadmin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\js\\plugin\\bootstrap-notify\\bootstrap-notify.min.js",
+      "PackagePath": "staticwebassets\\adminassests\\js\\plugin\\bootstrap-notify\\bootstrap-notify.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\js\\plugin\\bootstrap-tagsinput\\bootstrap-tagsinput.min.js",
+      "PackagePath": "staticwebassets\\adminassests\\js\\plugin\\bootstrap-tagsinput\\bootstrap-tagsinput.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\js\\plugin\\bootstrap-toggle\\bootstrap-toggle.min.js",
+      "PackagePath": "staticwebassets\\adminassests\\js\\plugin\\bootstrap-toggle\\bootstrap-toggle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\js\\plugin\\chart-circle\\circles.min.js",
+      "PackagePath": "staticwebassets\\adminassests\\js\\plugin\\chart-circle\\circles.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\js\\plugin\\chart.js\\chart.min.js",
+      "PackagePath": "staticwebassets\\adminassests\\js\\plugin\\chart.js\\chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\js\\plugin\\datatables\\datatables.min.js",
+      "PackagePath": "staticwebassets\\adminassests\\js\\plugin\\datatables\\datatables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\js\\plugin\\datepicker\\bootstrap-datetimepicker.min.js",
+      "PackagePath": "staticwebassets\\adminassests\\js\\plugin\\datepicker\\bootstrap-datetimepicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\js\\plugin\\dropzone\\dropzone.min.js",
+      "PackagePath": "staticwebassets\\adminassests\\js\\plugin\\dropzone\\dropzone.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\js\\plugin\\fullcalendar\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\adminassests\\js\\plugin\\fullcalendar\\fullcalendar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\js\\plugin\\gmaps\\gmaps.js",
+      "PackagePath": "staticwebassets\\adminassests\\js\\plugin\\gmaps\\gmaps.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\js\\plugin\\jquery-scrollbar\\jquery.scrollbar.min.js",
+      "PackagePath": "staticwebassets\\adminassests\\js\\plugin\\jquery-scrollbar\\jquery.scrollbar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\js\\plugin\\jquery.magnific-popup\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\adminassests\\js\\plugin\\jquery.magnific-popup\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\js\\plugin\\jquery.sparkline\\jquery.sparkline.min.js",
+      "PackagePath": "staticwebassets\\adminassests\\js\\plugin\\jquery.sparkline\\jquery.sparkline.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\js\\plugin\\jquery.validate\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\adminassests\\js\\plugin\\jquery.validate\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\js\\plugin\\jsvectormap\\jsvectormap.min.js",
+      "PackagePath": "staticwebassets\\adminassests\\js\\plugin\\jsvectormap\\jsvectormap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\js\\plugin\\jsvectormap\\world.js",
+      "PackagePath": "staticwebassets\\adminassests\\js\\plugin\\jsvectormap\\world.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\js\\plugin\\list.js\\list.min.js",
+      "PackagePath": "staticwebassets\\adminassests\\js\\plugin\\list.js\\list.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\js\\plugin\\moment\\moment.min.js",
+      "PackagePath": "staticwebassets\\adminassests\\js\\plugin\\moment\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\js\\plugin\\owl-carousel\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\adminassests\\js\\plugin\\owl-carousel\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\js\\plugin\\owl-carousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\adminassests\\js\\plugin\\owl-carousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\js\\plugin\\owl-carousel\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\adminassests\\js\\plugin\\owl-carousel\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\js\\plugin\\select2\\select2.full.min.js",
+      "PackagePath": "staticwebassets\\adminassests\\js\\plugin\\select2\\select2.full.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\js\\plugin\\sortable\\sortable.min.js",
+      "PackagePath": "staticwebassets\\adminassests\\js\\plugin\\sortable\\sortable.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\js\\plugin\\sticky-sidebar\\sticky-sidebar.min.js",
+      "PackagePath": "staticwebassets\\adminassests\\js\\plugin\\sticky-sidebar\\sticky-sidebar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\js\\plugin\\summernote\\summernote-lite.min.js",
+      "PackagePath": "staticwebassets\\adminassests\\js\\plugin\\summernote\\summernote-lite.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\js\\plugin\\sweetalert\\sweetalert.min.js",
+      "PackagePath": "staticwebassets\\adminassests\\js\\plugin\\sweetalert\\sweetalert.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\js\\plugin\\webfont\\webfont.min.js",
+      "PackagePath": "staticwebassets\\adminassests\\js\\plugin\\webfont\\webfont.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\js\\setting-demo.js",
+      "PackagePath": "staticwebassets\\adminassests\\js\\setting-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\js\\setting-demo2.js",
+      "PackagePath": "staticwebassets\\adminassests\\js\\setting-demo2.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\adminassests\\js\\site.js",
+      "PackagePath": "staticwebassets\\adminassests\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\css\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\assests\\css\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\css\\animate.css",
+      "PackagePath": "staticwebassets\\assests\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\css\\aos.css",
+      "PackagePath": "staticwebassets\\assests\\css\\aos.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\css\\bootstrap-datepicker.css",
+      "PackagePath": "staticwebassets\\assests\\css\\bootstrap-datepicker.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assests\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\css\\bootstrap\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\assests\\css\\bootstrap\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\css\\bootstrap\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\assests\\css\\bootstrap\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\css\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\assests\\css\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\css\\css\\mixins\\_text-hide.css",
+      "PackagePath": "staticwebassets\\assests\\css\\css\\mixins\\_text-hide.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\css\\flaticon.css",
+      "PackagePath": "staticwebassets\\assests\\css\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\css\\icomoon.css",
+      "PackagePath": "staticwebassets\\assests\\css\\icomoon.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\css\\ionicons.min.css",
+      "PackagePath": "staticwebassets\\assests\\css\\ionicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\css\\jquery.timepicker.css",
+      "PackagePath": "staticwebassets\\assests\\css\\jquery.timepicker.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\assests\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assests\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\assests\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\css\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\assests\\css\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\css\\style.css",
+      "PackagePath": "staticwebassets\\assests\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\fonts\\flaticon\\backup.txt",
+      "PackagePath": "staticwebassets\\assests\\fonts\\flaticon\\backup.txt"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\fonts\\flaticon\\font\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\assests\\fonts\\flaticon\\font\\Flaticon.eot"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\fonts\\flaticon\\font\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\assests\\fonts\\flaticon\\font\\Flaticon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\fonts\\flaticon\\font\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\assests\\fonts\\flaticon\\font\\Flaticon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\fonts\\flaticon\\font\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\assests\\fonts\\flaticon\\font\\Flaticon.woff"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\fonts\\flaticon\\font\\Flaticon.woff2",
+      "PackagePath": "staticwebassets\\assests\\fonts\\flaticon\\font\\Flaticon.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\fonts\\flaticon\\font\\_flaticon.scss",
+      "PackagePath": "staticwebassets\\assests\\fonts\\flaticon\\font\\_flaticon.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\fonts\\flaticon\\font\\flaticon.css",
+      "PackagePath": "staticwebassets\\assests\\fonts\\flaticon\\font\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\fonts\\flaticon\\font\\flaticon.html",
+      "PackagePath": "staticwebassets\\assests\\fonts\\flaticon\\font\\flaticon.html"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\fonts\\flaticon\\license\\license.pdf",
+      "PackagePath": "staticwebassets\\assests\\fonts\\flaticon\\license\\license.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\fonts\\icomoon\\icomoon.eot",
+      "PackagePath": "staticwebassets\\assests\\fonts\\icomoon\\icomoon.eot"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\fonts\\icomoon\\icomoon.svg",
+      "PackagePath": "staticwebassets\\assests\\fonts\\icomoon\\icomoon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\fonts\\icomoon\\icomoon.ttf",
+      "PackagePath": "staticwebassets\\assests\\fonts\\icomoon\\icomoon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\fonts\\icomoon\\icomoon.woff",
+      "PackagePath": "staticwebassets\\assests\\fonts\\icomoon\\icomoon.woff"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\fonts\\ionicons\\css\\_ionicons.scss",
+      "PackagePath": "staticwebassets\\assests\\fonts\\ionicons\\css\\_ionicons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\fonts\\ionicons\\css\\ionicons.min.css",
+      "PackagePath": "staticwebassets\\assests\\fonts\\ionicons\\css\\ionicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\fonts\\ionicons\\fonts\\ionicons.eot",
+      "PackagePath": "staticwebassets\\assests\\fonts\\ionicons\\fonts\\ionicons.eot"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\fonts\\ionicons\\fonts\\ionicons.svg",
+      "PackagePath": "staticwebassets\\assests\\fonts\\ionicons\\fonts\\ionicons.svg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\fonts\\ionicons\\fonts\\ionicons.ttf",
+      "PackagePath": "staticwebassets\\assests\\fonts\\ionicons\\fonts\\ionicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\fonts\\ionicons\\fonts\\ionicons.woff",
+      "PackagePath": "staticwebassets\\assests\\fonts\\ionicons\\fonts\\ionicons.woff"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\fonts\\ionicons\\fonts\\ionicons.woff2",
+      "PackagePath": "staticwebassets\\assests\\fonts\\ionicons\\fonts\\ionicons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\fonts\\open-iconic\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\assests\\fonts\\open-iconic\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\fonts\\open-iconic\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\assests\\fonts\\open-iconic\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\fonts\\open-iconic\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\assests\\fonts\\open-iconic\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\fonts\\open-iconic\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\assests\\fonts\\open-iconic\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\fonts\\open-iconic\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\assests\\fonts\\open-iconic\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\images\\No Copyright Shopping Mall Stock Footage Free.mp4",
+      "PackagePath": "staticwebassets\\assests\\images\\No Copyright Shopping Mall Stock Footage Free.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\images\\entertainment.jpg",
+      "PackagePath": "staticwebassets\\assests\\images\\entertainment.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\images\\shop.jpg",
+      "PackagePath": "staticwebassets\\assests\\images\\shop.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\js\\aos.js",
+      "PackagePath": "staticwebassets\\assests\\js\\aos.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\js\\bootstrap-datepicker.js",
+      "PackagePath": "staticwebassets\\assests\\js\\bootstrap-datepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assests\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\js\\google-map.js",
+      "PackagePath": "staticwebassets\\assests\\js\\google-map.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\js\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\assests\\js\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\js\\jquery-migrate-3.0.1.min.js",
+      "PackagePath": "staticwebassets\\assests\\js\\jquery-migrate-3.0.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\js\\jquery.animateNumber.min.js",
+      "PackagePath": "staticwebassets\\assests\\js\\jquery.animateNumber.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\js\\jquery.easing.1.3.js",
+      "PackagePath": "staticwebassets\\assests\\js\\jquery.easing.1.3.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\assests\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\assests\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\js\\jquery.stellar.min.js",
+      "PackagePath": "staticwebassets\\assests\\js\\jquery.stellar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\js\\jquery.waypoints.min.js",
+      "PackagePath": "staticwebassets\\assests\\js\\jquery.waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\js\\main.js",
+      "PackagePath": "staticwebassets\\assests\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\assests\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\assests\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\js\\range.js",
+      "PackagePath": "staticwebassets\\assests\\js\\range.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\js\\scrollax.min.js",
+      "PackagePath": "staticwebassets\\assests\\js\\scrollax.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\_alert.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\_badge.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\_button-group.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\_card.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\_carousel.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\_close.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\_code.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\_code.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\_custom-forms.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\_custom-forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\_forms.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\_functions.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\_grid.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\_images.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\_input-group.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\_jumbotron.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\_jumbotron.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\_list-group.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\_media.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\_media.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\_mixins.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\_modal.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\_nav.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\_navbar.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\_popover.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\_print.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\_print.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\_progress.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\_reboot.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\_root.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\_spinners.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\_tables.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\_toasts.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\_transitions.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\_type.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\_variables.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\mixins\\_background-variant.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\mixins\\_background-variant.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\mixins\\_float.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\mixins\\_float.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\mixins\\_grid-framework.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\mixins\\_grid-framework.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\mixins\\_nav-divider.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\mixins\\_nav-divider.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\mixins\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\mixins\\_screen-reader.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\mixins\\_size.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\mixins\\_size.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\mixins\\_table-row.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\mixins\\_table-row.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\mixins\\_text-emphasis.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\mixins\\_text-emphasis.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\mixins\\_text-hide.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\mixins\\_text-hide.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\mixins\\_visibility.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\mixins\\_visibility.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\utilities\\_align.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\utilities\\_align.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\utilities\\_background.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\utilities\\_background.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\utilities\\_borders.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\utilities\\_borders.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\utilities\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\utilities\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\utilities\\_display.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\utilities\\_display.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\utilities\\_embed.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\utilities\\_embed.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\utilities\\_flex.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\utilities\\_flex.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\utilities\\_float.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\utilities\\_float.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\utilities\\_overflow.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\utilities\\_overflow.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\utilities\\_position.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\utilities\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\utilities\\_screenreaders.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\utilities\\_screenreaders.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\utilities\\_shadows.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\utilities\\_shadows.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\utilities\\_sizing.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\utilities\\_sizing.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\utilities\\_spacing.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\utilities\\_spacing.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\utilities\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\utilities\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\utilities\\_text.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\utilities\\_text.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\utilities\\_visibility.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\utilities\\_visibility.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\bootstrap\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\bootstrap\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\assests\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\assests\\scss\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\foodimage\\2.PNG",
+      "PackagePath": "staticwebassets\\foodimage\\2.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\foodimage\\2.jpg",
+      "PackagePath": "staticwebassets\\foodimage\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\foodimage\\3.jpg",
+      "PackagePath": "staticwebassets\\foodimage\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\foodimage\\Capture.PNG",
+      "PackagePath": "staticwebassets\\foodimage\\Capture.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\foodimage\\Coffee cardimage.jpg",
+      "PackagePath": "staticwebassets\\foodimage\\Coffee cardimage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\foodimage\\Media1.mp4",
+      "PackagePath": "staticwebassets\\foodimage\\Media1.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\foodimage\\alipne shopcard - Copy.jfif",
+      "PackagePath": "staticwebassets\\foodimage\\alipne shopcard - Copy.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\foodimage\\alipne shopcard.jfif",
+      "PackagePath": "staticwebassets\\foodimage\\alipne shopcard.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\foodimage\\burger.jpg",
+      "PackagePath": "staticwebassets\\foodimage\\burger.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\foodimage\\burger2.jpg",
+      "PackagePath": "staticwebassets\\foodimage\\burger2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\foodimage\\cacke Cardimage.jfif",
+      "PackagePath": "staticwebassets\\foodimage\\cacke Cardimage.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\foodimage\\cake image card2.jfif",
+      "PackagePath": "staticwebassets\\foodimage\\cake image card2.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\foodimage\\cake.jpg",
+      "PackagePath": "staticwebassets\\foodimage\\cake.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\foodimage\\cake2.jpg",
+      "PackagePath": "staticwebassets\\foodimage\\cake2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\foodimage\\coffee.jpg",
+      "PackagePath": "staticwebassets\\foodimage\\coffee.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\foodimage\\coffee2.jpg",
+      "PackagePath": "staticwebassets\\foodimage\\coffee2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\foodimage\\drink.jpg",
+      "PackagePath": "staticwebassets\\foodimage\\drink.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\foodimage\\drink2.jpg",
+      "PackagePath": "staticwebassets\\foodimage\\drink2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\foodimage\\icecream cardimage.jfif",
+      "PackagePath": "staticwebassets\\foodimage\\icecream cardimage.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\foodimage\\icecream cardimage2.jpg",
+      "PackagePath": "staticwebassets\\foodimage\\icecream cardimage2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\foodimage\\icecream.jpg",
+      "PackagePath": "staticwebassets\\foodimage\\icecream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\foodimage\\icecream2.jpg",
+      "PackagePath": "staticwebassets\\foodimage\\icecream2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\foodimage\\juice card image.jfif",
+      "PackagePath": "staticwebassets\\foodimage\\juice card image.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\foodimage\\kabbabjees.jpg",
+      "PackagePath": "staticwebassets\\foodimage\\kabbabjees.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\foodimage\\pizza.jpg",
+      "PackagePath": "staticwebassets\\foodimage\\pizza.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\foodimage\\pizza2.jpg",
+      "PackagePath": "staticwebassets\\foodimage\\pizza2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\foodimage\\pizzashop cardimage.jpg",
+      "PackagePath": "staticwebassets\\foodimage\\pizzashop cardimage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\galleryimages\\1.PNG",
+      "PackagePath": "staticwebassets\\galleryimages\\1.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\galleryimages\\2.PNG",
+      "PackagePath": "staticwebassets\\galleryimages\\2.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\galleryimages\\3.PNG",
+      "PackagePath": "staticwebassets\\galleryimages\\3.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\galleryimages\\4.PNG",
+      "PackagePath": "staticwebassets\\galleryimages\\4.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\galleryimages\\burger.jpg",
+      "PackagePath": "staticwebassets\\galleryimages\\burger.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\galleryimages\\burger2.jpg",
+      "PackagePath": "staticwebassets\\galleryimages\\burger2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\galleryimages\\cacke Cardimage.jfif",
+      "PackagePath": "staticwebassets\\galleryimages\\cacke Cardimage.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\galleryimages\\coffee.jpg",
+      "PackagePath": "staticwebassets\\galleryimages\\coffee.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\galleryimages\\images.jfif",
+      "PackagePath": "staticwebassets\\galleryimages\\images.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\images\\image1.jpg",
+      "PackagePath": "staticwebassets\\images\\image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\images\\image10.jpg",
+      "PackagePath": "staticwebassets\\images\\image10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\images\\image11.jpg",
+      "PackagePath": "staticwebassets\\images\\image11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\images\\image12.jpg",
+      "PackagePath": "staticwebassets\\images\\image12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\images\\image2.jpg",
+      "PackagePath": "staticwebassets\\images\\image2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\images\\image3.jpg",
+      "PackagePath": "staticwebassets\\images\\image3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\images\\image4.jpg",
+      "PackagePath": "staticwebassets\\images\\image4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\images\\image5.jpg",
+      "PackagePath": "staticwebassets\\images\\image5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\images\\image6.jpg",
+      "PackagePath": "staticwebassets\\images\\image6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\images\\image7.jpg",
+      "PackagePath": "staticwebassets\\images\\image7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\images\\image8.jpg",
+      "PackagePath": "staticwebassets\\images\\image8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\images\\image9.jpg",
+      "PackagePath": "staticwebassets\\images\\image9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\shopimages\\11.jpg",
+      "PackagePath": "staticwebassets\\shopimages\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\shopimages\\5.jpg",
+      "PackagePath": "staticwebassets\\shopimages\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\shopimages\\6.jpg",
+      "PackagePath": "staticwebassets\\shopimages\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\shopimages\\Capture.PNG",
+      "PackagePath": "staticwebassets\\shopimages\\Capture.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\shopimages\\Gul Ahmed 1.jpg",
+      "PackagePath": "staticwebassets\\shopimages\\Gul Ahmed 1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\shopimages\\Gul Ahmed card.jpg",
+      "PackagePath": "staticwebassets\\shopimages\\Gul Ahmed card.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\shopimages\\Gul Ahmed.jpg",
+      "PackagePath": "staticwebassets\\shopimages\\Gul Ahmed.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\shopimages\\Havenly Decor 1.jpg",
+      "PackagePath": "staticwebassets\\shopimages\\Havenly Decor 1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\shopimages\\Havenly Decor card.jpg",
+      "PackagePath": "staticwebassets\\shopimages\\Havenly Decor card.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\shopimages\\Havenly Decor.jpg",
+      "PackagePath": "staticwebassets\\shopimages\\Havenly Decor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\shopimages\\Maria B 2.jpg",
+      "PackagePath": "staticwebassets\\shopimages\\Maria B 2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\shopimages\\Maria B.jpg",
+      "PackagePath": "staticwebassets\\shopimages\\Maria B.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\shopimages\\bg_1.jpg",
+      "PackagePath": "staticwebassets\\shopimages\\bg_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\shopimages\\bg_6.jpg",
+      "PackagePath": "staticwebassets\\shopimages\\bg_6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\shopimages\\huda beauty.jpg",
+      "PackagePath": "staticwebassets\\shopimages\\huda beauty.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\shopimages\\hudabeauty 2.jpg",
+      "PackagePath": "staticwebassets\\shopimages\\hudabeauty 2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\shopimages\\hudabeauty card.jpg",
+      "PackagePath": "staticwebassets\\shopimages\\hudabeauty card.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\shopimages\\iphone 1.jpg",
+      "PackagePath": "staticwebassets\\shopimages\\iphone 1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\shopimages\\iphone 2.jpg",
+      "PackagePath": "staticwebassets\\shopimages\\iphone 2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\shopimages\\iphone card.jpg",
+      "PackagePath": "staticwebassets\\shopimages\\iphone card.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\shopimages\\maria b card.jpg",
+      "PackagePath": "staticwebassets\\shopimages\\maria b card.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\shopimages\\maybelline 1.jpg",
+      "PackagePath": "staticwebassets\\shopimages\\maybelline 1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\shopimages\\maybelline 2.jpg",
+      "PackagePath": "staticwebassets\\shopimages\\maybelline 2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\shopimages\\maybelline card.jpg",
+      "PackagePath": "staticwebassets\\shopimages\\maybelline card.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\shopimages\\samsung 2.jpg",
+      "PackagePath": "staticwebassets\\shopimages\\samsung 2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\shopimages\\samsung card.jpg",
+      "PackagePath": "staticwebassets\\shopimages\\samsung card.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Student\\Desktop\\Shopping Mall\\project\\wwwroot\\shopimages\\samsung.jpg",
+      "PackagePath": "staticwebassets\\shopimages\\samsung.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.project.props",
+      "PackagePath": "build\\project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.project.props",
+      "PackagePath": "buildMultiTargeting\\project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.project.props",
+      "PackagePath": "buildTransitive\\project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.project.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

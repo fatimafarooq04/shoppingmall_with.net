@@ -1,0 +1,304 @@
+<div class="wrapper">
+    <!-- Sidebar -->
+    <div class="sidebar" data-background-color="dark">
+        <div class="sidebar-logo">
+            <!-- Logo Header -->
+            <div class="logo-header" data-background-color="dark">
+                <h1>mall</h1>
+                <div class="nav-toggle">
+                    <button class="btn btn-toggle toggle-sidebar">
+                        <i class="gg-menu-right"></i>
+                    </button>
+                    <button class="btn btn-toggle sidenav-toggler">
+                        <i class="gg-menu-left"></i>
+                    </button>
+                </div>
+                <button class="topbar-toggler more">
+                    <i class="gg-more-vertical-alt"></i>
+                </button>
+            </div>
+            <!-- End Logo Header -->
+        </div>
+        <div class="sidebar-wrapper scrollbar scrollbar-inner">
+            <div class="sidebar-content">
+                <ul class="nav nav-secondary">
+                    @* <li class="nav-item ">
+                        <a >
+                            <i class="fas fa-home text-black"></i>
+                            <p class=" text-black">Dashboard</p>
+                           
+                        </a>
+                       
+                    </li> *@
+                    <li class="nav-section">
+                        <span class="sidebar-mini-icon">
+                            <i class="fa fa-ellipsis-h"></i>
+                        </span>
+                        <h4 class="text-section text-black">Components</h4>
+                    </li>
+@* 
+                    <li class="nav-item">
+                        <a data-bs-toggle="collapse" href="#Roles">
+                            <i class="fas fa-pen-square text-black"></i>
+                            <p class=" text-black">Roles</p>
+                            <span class="caret text-black"></span>
+                        </a>
+                        <div class="collapse" id="Roles">
+                            <ul class="nav nav-collapse">
+                                <li>
+                                    <a asp-controller="Admin" asp-action="Role">
+                                        <span class="sub-item text-black">Roles</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a asp-controller="Admin" asp-action="ShowRole">
+                                        <span class="sub-item text-black">Show Roles</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li> *@
+                    <li class="nav-item">
+                        <a data-bs-toggle="collapse" href="#Floors">
+                            <i class="fas fa-pen-square text-black"></i>
+                            <p class=" text-black">Floors</p>
+                            <span class="caret text-black"></span>
+                        </a>
+                        <div class="collapse" id="Floors">
+                            <ul class="nav nav-collapse">
+                                <li>
+                                    <a asp-controller="Admin" asp-action="Floors">
+                                        <span class="sub-item text-black">Floors</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a asp-controller="Admin" asp-action="ShowFloors">
+                                        <span class="sub-item text-black">Show Floors</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a data-bs-toggle="collapse" href="#Shop">
+                            <i class="fas fa-pen-square text-black"></i>
+                            <p class=" text-black">Shops</p>
+                            <span class="caret text-black"></span>
+                        </a>
+                        <div class="collapse" id="Shop">
+                            <ul class="nav nav-collapse">
+                                <li>
+                                    <a asp-controller="Admin" asp-action="Category">
+                                        <span class="sub-item text-black">Shop Categories</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a asp-controller="Admin" asp-action="ShowCategory">
+                                        <span class="sub-item text-black">Show Shop Category</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a asp-controller="Admin" asp-action="Shop">
+                                        <span class="sub-item text-black">Add Shop </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a asp-controller="Admin" asp-action="Showshop">
+                                        <span class="sub-item text-black">Show Shops </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a data-bs-toggle="collapse" href="#Food">
+                            <i class="fas fa-pen-square  text-black"></i>
+                            <p class=" text-black">Food</p>
+                            <span class="caret text-black"></span>
+                        </a>
+                        <div class="collapse" id="Food">
+                            <ul class="nav nav-collapse">
+                                <li>
+                                    <a asp-controller="Admin" asp-action="Foodcategory">
+                                        <span class="sub-item text-black">Food Category</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a asp-controller="Admin" asp-action="ShowFoodcategory">
+                                        <span class="sub-item text-black">Show Food Category</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a asp-controller="Admin" asp-action="foodshop">
+                                        <span class="sub-item text-black">Add Food</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a asp-controller="Admin" asp-action="Showfood">
+                                        <span class="sub-item text-black">Show Food</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a data-bs-toggle="collapse" href="#Movie">
+                            <i class="fas fa-pen-square  text-black"></i>
+                            <p class=" text-black">Movie</p>
+                            <span class="caret text-black"></span>
+                        </a>
+                        <div class="collapse" id="Movie">
+                            <ul class="nav nav-collapse">
+                                <li>
+                                    <a asp-controller="Admin" asp-action="Movie">
+                                        <span class="sub-item text-black">Movie </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a asp-controller="Admin" asp-action="ShowMovieTime">
+                                        <span class="sub-item text-black">Add Movie Time </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a asp-controller="Admin" asp-action="ShowMovie">
+                                        <span class="sub-item text-black">Show Movie </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a asp-controller="Admin" asp-action="ShowBooking">
+                                        <span class="sub-item text-black">Show Movie </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    <li class="nav-item">
+                        <a data-bs-toggle="collapse" href="#feedback">
+                            <i class="fas fa-pen-square  text-black"></i>
+                            <p class=" text-black">feedback</p>
+                            <span class="caret text-black"></span>
+                        </a>
+                        <div class="collapse" id="feedback">
+                            <ul class="nav nav-collapse">
+                                <li>
+                                    <a asp-controller="Admin" asp-action="Showfeedback">
+                                        <span class="sub-item text-black">feedback </span>
+                                    </a>
+                                </li>
+                               
+                            </ul>
+                        </div>
+                        </li>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End Sidebar -->
+
+    <div class="main-panel">
+        <div class="main-header">
+            <div class="main-header-logo">
+                <!-- Logo Header -->
+                <div class="logo-header" data-background-color="dark">
+                    <a href="index.html" class="logo">
+                        <img src="~/assets/img/kaiadmin/logo_light.svg"
+                             alt="navbar brand"
+                             class="navbar-brand"
+                             height="20" />
+                    </a>
+                    <div class="nav-toggle">
+                        <button class="btn btn-toggle toggle-sidebar">
+                            <i class="gg-menu-right"></i>
+                        </button>
+                        <button class="btn btn-toggle sidenav-toggler">
+                            <i class="gg-menu-left"></i>
+                        </button>
+                    </div>
+                    <button class="topbar-toggler more">
+                        <i class="gg-more-vertical-alt"></i>
+                    </button>
+                </div>
+                <!-- End Logo Header -->
+            </div>
+            <!-- Navbar Header -->
+            <nav class="navbar navbar-header navbar-header-transparent navbar-expand-lg border-bottom">
+                <div class="container-fluid">
+               @*      <nav class="navbar navbar-header-left navbar-expand-lg navbar-form nav-search p-0 d-none d-lg-flex">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <button type="submit" class="btn btn-search pe-1">
+                                    <i class="fa fa-search search-icon"></i>
+                                </button>
+                            </div>
+                            <input type="text"
+                                   placeholder="Search ..."
+                                   class="form-control" />
+                        </div>
+                    </nav> *@
+
+                    <ul class="navbar-nav topbar-nav ms-md-auto align-items-center">
+                        @* <li class="nav-item topbar-icon dropdown hidden-caret d-flex d-lg-none">
+                            <a class="nav-link dropdown-toggle"
+                               data-bs-toggle="dropdown"
+                               href="#"
+                               role="button"
+                               aria-expanded="false"
+                               aria-haspopup="true">
+                                <i class="fa fa-search"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-search animated fadeIn">
+                                <form class="navbar-left navbar-form nav-search">
+                                    <div class="input-group">
+                                        <input type="text"
+                                               placeholder="Search ..."
+                                               class="form-control" />
+                                    </div>
+                                </form>
+                            </ul>
+                        </li> *@
+
+                        <li class="nav-item topbar-user dropdown hidden-caret">
+                            <a class="dropdown-toggle profile-pic"
+                               data-bs-toggle="dropdown"
+                               href="#"
+                               aria-expanded="false">
+                                <div class="avatar-sm">
+                                    <img src="~/assets/img/@Context.Session.GetString("userimg")"
+                                         alt="..."
+                                         class="avatar-img rounded-circle" />
+                                </div>
+                                <span class="profile-username">
+                                    <span class="op-7">Hi,</span>
+                                    <span class="fw-bold">@Context.Session.GetString("username")</span>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-user animated fadeIn">
+                                <div class="dropdown-user-scroll scrollbar-outer">
+                                <li>
+                                    <div class="user-box">
+                                        <div class="avatar-lg">
+                                            <img src="~/assets/img/profile.jpg"
+                                                 alt="image profile"
+                                                 class="avatar-img rounded" />
+                                        </div>
+                                        <div class="u-text">
+                                            <h4>Hizrian</h4>
+<a class="dropdown-item" href="@Url.Action("Profile", "Admin")">My Profile</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="dropdown-divider"></div>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="@Url.Action("Logout", "Admin")">Logout</a> <!-- Link to Logout -->
+                                </li>
+                </div>
+                </ul>
+                </li>
+                </ul>
+        </div>
+        </nav>
+        <!-- End Navbar -->
+    </div>

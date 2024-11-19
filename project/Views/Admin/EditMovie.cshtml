@@ -1,0 +1,270 @@
+﻿@model project.Models.MovieViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Categories Form</title>
+    <link rel="icon"
+          href="assets/img/kaiadmin/favicon.ico"
+          type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+          rel="stylesheet" />
+
+    <!-- Fonts and icons -->
+    <script src="~/adminassests/js/plugin/webfont/webfont.min.js"></script>
+    <script>
+        WebFont.load({
+            google: { families: ["Public Sans:300,400,500,600,700"] },
+            custom: {
+                families: [
+                    "Font Awesome 5 Solid",
+                    "Font Awesome 5 Regular",
+                    "Font Awesome 5 Brands",
+                    "simple-line-icons",
+                ],
+                urls: ["assets/css/fonts.min.css"],
+            },
+            active: function () {
+                sessionStorage.fonts = true;
+            },
+        });
+    </script>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="~/adminassests/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/adminassests/css/plugins.min.css" />
+    <link rel="stylesheet" href="~/adminassests/css/kaiadmin.min.css" />
+
+    <script src="~/assadminassestsets/js/core/jquery-3.7.1.min.js"></script>
+    <script src="~/adminassests/js/core/popper.min.js"></script>
+    <script src="~/adminassests/js/core/bootstrap.min.js"></script>
+
+    <!-- jQuery Scrollbar -->
+    <script src="~/adminassests/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+
+    <!-- Chart JS -->
+    <script src="~/adminassests/js/plugin/chart.js/chart.min.js"></script>
+
+    <!-- jQuery Sparkline -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-sparkline/2.1.2/jquery.sparkline.min.js"></script>
+
+    <!-- Chart Circle -->
+    <script src="~/adminassests/js/plugin/chart-circle/circles.min.js"></script>
+
+    <!-- Datatables -->
+    <script src="~/adminassests/js/plugin/datatables/datatables.min.js"></script>
+
+    <!-- Bootstrap Notify -->
+    <script src="~/adminassests/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
+
+    <!-- jQuery Vector Maps -->
+    <script src="~/adminassests/js/plugin/jsvectormap/jsvectormap.min.js"></script>
+    <script src="~/adminassests/js/plugin/jsvectormap/world.js"></script>
+
+    <!-- Sweet Alert -->
+    <script src="~/adminassests/js/plugin/sweetalert/sweetalert.min.js"></script>
+
+    <!-- Kaiadmin JS -->
+    <script src="~/adminassests/js/kaiadmin.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+
+
+    <script>
+        $("#lineChart").sparkline([102, 109, 120, 99, 110, 105, 115], {
+            type: "line",
+            height: "70",
+            width: "100%",
+            lineWidth: "2",
+            lineColor: "#177dff",
+            fillColor: "rgba(23, 125, 255, 0.14)",
+        });
+
+        $("#lineChart2").sparkline([99, 125, 122, 105, 110, 124, 115], {
+            type: "line",
+            height: "70",
+            width: "100%",
+            lineWidth: "2",
+            lineColor: "#f3545d",
+            fillColor: "rgba(243, 84, 93, .14)",
+        });
+
+        $("#lineChart3").sparkline([105, 103, 123, 100, 95, 105, 115], {
+            type: "line",
+            height: "70",
+            width: "100%",
+            lineWidth: "2",
+            lineColor: "#ffa534",
+            fillColor: "rgba(255, 165, 52, .14)",
+        });
+    </script>
+</head>
+<body>
+    @Html.Partial("adminHeader")
+
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Edit Movie Details</h2>
+
+        <form method="post" enctype="multipart/form-data" class="border p-4 rounded shadow mx-5 my-4">
+            <input type="hidden" name="id" value="@Model.Movie.MovieId" />
+
+            <!-- Movie Information -->
+            <div class="form-group mb-3">
+                <label for="Title">Movie Title</label>
+                <input type="text" class="form-control" id="Title" name="Title" value="@Model.Movie.Title" required>
+            </div>
+
+            <div class="form-group mb-3">
+                <label for="Description">Description</label>
+                <textarea class="form-control" id="Description" name="Description" rows="3" required>@Model.Movie.Description</textarea>
+            </div>
+
+            <div class="form-group mb-3">
+                <label for="Genre">Genre</label>
+                <input type="text" class="form-control" id="Genre" name="Genre" value="@Model.Movie.Genre" required>
+            </div>
+
+            <div class="form-group mb-3">
+                <label for="Runtime">Runtime</label>
+                <input type="text" class="form-control" id="Runtime" name="Runtime" value="@Model.Movie.Runtime" required>
+            </div>
+
+            <div class="form-group mb-3">
+                <label for="Poster">Poster</label>
+                <input type="url" class="form-control" id="Poster" name="Poster" value="@Model.Movie.Poster">
+                @if (!string.IsNullOrEmpty(Model.Movie.Poster))
+                {
+                    <img src="@Model.Movie.Poster" height="100" class="mt-2" />
+                }
+            </div>
+
+            <div class="form-group mb-3">
+                <label for="Trailer">Trailer URL</label>
+                <input type="text" class="form-control" id="Trailer" name="Trailer" value="@Model.Movie.Trailer">
+            </div>
+
+            <div class="form-group mb-3">
+                <label for="Actors">Actors</label>
+                <input type="text" class="form-control" id="Actors" name="Actors" value="@Model.Movie.Actors" required>
+            </div>
+
+            <div class="form-group mb-3">
+                <label for="Director">Director</label>
+                <input type="text" class="form-control" id="Director" name="Director" value="@Model.Movie.Director" required>
+            </div>
+
+            <div class="form-group mb-3">
+                <label for="Language">Language</label>
+                <input type="text" class="form-control" id="Language" name="Language" value="@Model.Movie.Language" required>
+            </div>
+
+            <div class="form-group mb-3">
+                <label for="ReleaseDate">Release Date</label>
+                <input type="date" class="form-control" id="ReleaseDate" name="ReleaseDate"
+                       value="@(Model.Movie.ReleaseDate.HasValue ? Model.Movie.ReleaseDate.Value.ToString("yyyy-MM-dd") : string.Empty)" required>
+            </div>
+
+            <h4>Showtimes and Seats</h4>
+            <div id="showtimeContainer">
+                @foreach (var showtime in Model.Moviesshowtime)
+                {
+                    <div class="showtime-row border p-3 mb-4" id="showtime_@showtime.ShowtimeId">
+                        <div class="form-group mb-3 me-3">
+                            <label>Show Date</label>
+                            <input type="date" class="form-control" name="ShowDates[]" value="@showtime.ShowDate.ToString("yyyy-MM-dd")" required>
+                        </div>
+                        <div class="form-group mb-3 me-3">
+                            <label>Start Time</label>
+                            <input type="time" class="form-control" name="StartTimes[]" value="@showtime.StartTime.ToString(@"hh\:mm")" required>
+                        </div>
+                        <div class="form-group mb-3 me-3">
+                            <label>End Time</label>
+                            <input type="time" class="form-control" name="EndTimes[]" value="@showtime.EndTime.ToString(@"hh\:mm")" required>
+                        </div>
+
+                        <div class="seat-container" id="seatContainer_@showtime.ShowtimeId" style="margin-left: 20px;">
+                            @{
+                                var seat = Model.Seats.FirstOrDefault(s => s.ShowTimeID == showtime.ShowtimeId);
+                                if (seat != null)
+                                {
+                                    <div class="seat-row">
+                                        <div class="form-group me-3">
+                                            <label>Price</label>
+                                            <input type="number" class="form-control" name="SeatPrices[]" value="@seat.Price" required>
+                                        </div>
+                                      
+
+                                    </div>
+                                }
+                                else
+                                {
+                                    <!-- Render empty inputs if no seats are found -->
+                                    <div class="seat-row">
+                                        <div class="form-group me-3">
+                                            <label>Price</label>
+                                            <input type="number" class="form-control" name="SeatPrices[]" placeholder="Enter price" required>
+                                        </div>
+                                        <div class="form-group mb-3">
+                                            <label for="SeatRange">Seat Range (e.g., A1-E5)</label>
+                                            <input type="text" class="form-control" id="SeatRange" name="SeatRange" placeholder="Enter seat range" required >
+                                        </div>
+                                    </div>
+                                }
+                            }
+                        </div>
+
+                        <i class="ri-subtract-line" onclick="removeShowtime(this)" style="font-size:30px;cursor:pointer"></i>
+                    </div>
+                }
+            </div>
+            <button type="button" class="btn btn-secondary mb-3" onclick="addShowtime()">Add Showtime</button>
+
+            <button type="submit" class="btn btn-primary mt-3">Save Changes</button>
+        </form>
+    </div>
+
+    <script>
+        function addShowtime() {
+            const newShowtimeId = Date.now(); // Create a unique ID for the new showtime
+            const newRow = `
+                        <div class="showtime-row border p-3 mb-4" id="showtime_${newShowtimeId}">
+                            <div class="form-group mb-3 me-3">
+                                <label>Show Date</label>
+                                <input type="date" class="form-control" name="ShowDates[]" required>
+                            </div>
+                            <div class="form-group mb-3 me-3">
+                                <label>Start Time</label>
+                                <input type="time" class="form-control" name="StartTimes[]" required>
+                            </div>
+                            <div class="form-group mb-3 me-3">
+                                <label>End Time</label>
+                                <input type="time" class="form-control" name="EndTimes[]" required>
+                            </div>
+                            <div class="seat-container" id="seatContainer_${newShowtimeId}" style="margin-left: 20px;">
+                                <div class="seat-row">
+                                    <div class="form-group me-3">
+                                        <label>Price</label>
+                                        <input type="number" class="form-control" name="SeatPrices[]" required>
+                                    </div>
+                                    <div class="form-group me-3">
+                                                <label>Seat Range (e.g., A1-E5)</label>
+                                                        <input type="text" class="form-control" name="SeatRange" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <i class="ri-subtract-line" onclick="removeShowtime(this)" style="font-size:30px;cursor:pointer"></i>
+                        </div>`;
+            document.getElementById('showtimeContainer').insertAdjacentHTML('beforeend', newRow);
+        }
+
+        function removeShowtime(element) {
+            element.closest('.showtime-row').remove();
+        }
+    </script>
+</body>
+</html>

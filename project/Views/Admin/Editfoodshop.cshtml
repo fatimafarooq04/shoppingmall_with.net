@@ -1,0 +1,196 @@
+﻿@model project.Models.FoodShopViewModel
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Categories Form</title>
+    <link rel="icon"
+          href="assets/img/kaiadmin/favicon.ico"
+          type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+          rel="stylesheet" />
+
+    <!-- Fonts and icons -->
+    <script src="~/adminassests/js/plugin/webfont/webfont.min.js"></script>
+    <script>
+        WebFont.load({
+            google: { families: ["Public Sans:300,400,500,600,700"] },
+            custom: {
+                families: [
+                    "Font Awesome 5 Solid",
+                    "Font Awesome 5 Regular",
+                    "Font Awesome 5 Brands",
+                    "simple-line-icons",
+                ],
+                urls: ["assets/css/fonts.min.css"],
+            },
+            active: function () {
+                sessionStorage.fonts = true;
+            },
+        });
+    </script>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="~/adminassests/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/adminassests/css/plugins.min.css" />
+    <link rel="stylesheet" href="~/adminassests/css/kaiadmin.min.css" />
+
+    <script src="~/assadminassestsets/js/core/jquery-3.7.1.min.js"></script>
+    <script src="~/adminassests/js/core/popper.min.js"></script>
+    <script src="~/adminassests/js/core/bootstrap.min.js"></script>
+
+    <!-- jQuery Scrollbar -->
+    <script src="~/adminassests/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+
+    <!-- Chart JS -->
+    <script src="~/adminassests/js/plugin/chart.js/chart.min.js"></script>
+
+    <!-- jQuery Sparkline -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-sparkline/2.1.2/jquery.sparkline.min.js"></script>
+
+    <!-- Chart Circle -->
+    <script src="~/adminassests/js/plugin/chart-circle/circles.min.js"></script>
+
+    <!-- Datatables -->
+    <script src="~/adminassests/js/plugin/datatables/datatables.min.js"></script>
+
+    <!-- Bootstrap Notify -->
+    <script src="~/adminassests/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
+
+    <!-- jQuery Vector Maps -->
+    <script src="~/adminassests/js/plugin/jsvectormap/jsvectormap.min.js"></script>
+    <script src="~/adminassests/js/plugin/jsvectormap/world.js"></script>
+
+    <!-- Sweet Alert -->
+    <script src="~/adminassests/js/plugin/sweetalert/sweetalert.min.js"></script>
+
+    <!-- Kaiadmin JS -->
+    <script src="~/adminassests/js/kaiadmin.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+
+
+    <script>
+        $("#lineChart").sparkline([102, 109, 120, 99, 110, 105, 115], {
+            type: "line",
+            height: "70",
+            width: "100%",
+            lineWidth: "2",
+            lineColor: "#177dff",
+            fillColor: "rgba(23, 125, 255, 0.14)",
+        });
+
+        $("#lineChart2").sparkline([99, 125, 122, 105, 110, 124, 115], {
+            type: "line",
+            height: "70",
+            width: "100%",
+            lineWidth: "2",
+            lineColor: "#f3545d",
+            fillColor: "rgba(243, 84, 93, .14)",
+        });
+
+        $("#lineChart3").sparkline([105, 103, 123, 100, 95, 105, 115], {
+            type: "line",
+            height: "70",
+            width: "100%",
+            lineWidth: "2",
+            lineColor: "#ffa534",
+            fillColor: "rgba(255, 165, 52, .14)",
+        });
+    </script>
+</head>
+<body>
+@Html.Partial("adminHeader");
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Food Shops Form</h2>
+
+    @if (ViewBag.SuccessMessage != null)
+    {
+        <div class="alert alert-success">@ViewBag.SuccessMessage</div>
+    }
+
+    <form method="post" enctype="multipart/form-data" class="border p-4 rounded shadow mx-5 my-4">
+        <div class="form-group mb-3">
+            <input type="hidden" name="id" value="@Model.foodshop.FoodCourtShopID" />
+
+            <label for="FoodShopName">Food Shop Name</label>
+            <input type="text" class="form-control" id="FoodShopName" name="FoodShopName" required value="@Model.foodshop.ShopName">
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="Description">Description</label>
+            <input type="text" class="form-control" id="Description" name="Description" required value="@Model.foodshop.Description">
+        </div>
+
+        <div class="mb-3">
+            <label for="floor" class="form-label">Select Floor</label>
+            <select id="floor" name="floor" class="form-select" asp-for="SelectedFloorID" asp-items="@(new SelectList(Model.Floors, "FloorID", "Description"))" required>
+            </select>
+        </div>
+        <div class="form-group mb-3">
+            <label for="Location">Location</label>
+            <input type="text" class="form-control" id="Location" required name="Location" value="@Model.foodshop.Location">
+        </div>
+        <div class="form-group mb-3">
+            <label for="Location">Phone</label>
+            <input type="text" class="form-control" id="Location" required name="Phone" value="@Model.foodshop.Phone">
+        </div>
+        <div class="form-group mb-3">
+            <label for="Location">Email</label>
+            <input type="text" class="form-control" id="Location" required name="Email" value="@Model.foodshop.Email">
+        </div>
+        <div class="form-group mb-3">
+            <label for="Location">StoreHours</label>
+            <input type="text" class="form-control" id="Location" required name="StoreHours" value="@Model.foodshop.StoreHours">
+        </div>
+        <div class="form-group mb-3">
+            <label for="card">Upload Card Image</label>
+
+
+            <input type="file" class="form-control" id="card" name="CardImage">
+            @if (Model.foodshop.ImageURL != null && Model.foodshop.ImageURL.Any())
+            {
+                <p>Current Card Image: <img src="~/foodimage/@Model.foodshop.ImageURL" alt="Card Image" style="width: 100px; height: auto; margin-top:20px" /></p>
+            }
+        </div>
+
+        <div class="mb-3">
+            <label for="category" class="form-label">Select Food Category</label>
+            <select id="category" name="category" class="form-select" asp-for="SelectedFoodCategoryID" asp-items="@(new SelectList(Model.FoodCategory, "FoodCategoryID", "CategoryName"))" required>
+            </select>
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="image">Upload Images</label>
+            <input type="file" class="form-control" id="image" name="Images" multiple>
+            @if (Model.foodshop.foodshopimages != null && Model.foodshop.foodshopimages.Any())
+            {
+                <p>Current Images:</p>
+                @foreach (var imagePath in Model.foodshop.foodshopimages)
+                {
+                    <div style="margin-top: 10px;">
+                        <img src="~/foodimage/@imagePath.ImageURL" alt="Shop Image" style="width: 100px; height: auto; margin-right: 10px;" />
+                        <input type="checkbox" name="DeleteImages" value="@imagePath.FoodCourtImageID" style="margin-left: 10px;" />
+                        <label style="margin-left: 5px;">Delete</label>
+                    </div>
+                }
+            }
+        </div>
+
+
+
+
+
+
+        <div class="d-grid">
+            <button type="submit" class="btn btn-primary">Update Food Shop</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,93 @@
+﻿@model IEnumerable<project.Models.gallery>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Responsive image gallery grid</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        section {
+            width: 80%;
+            margin: 3rem auto;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 3rem;
+            font-size: 3rem;
+            text-transform: capitalize;
+        }
+
+        .images-gallery {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .column img {
+            width: 100%;
+        }
+
+        .column {
+            width: 33.333333%;
+            padding-right: 0.5rem;
+            padding-left: 0.5rem;
+        }
+
+            .column div {
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+            }
+
+    </style>
+</head>
+<body>
+
+    @Html.Partial("userheader")
+    <section>@* 
+        <h1>Responsive image gallery</h1> *@
+
+        <div class="images-gallery">
+            <div class="column">
+                <div>
+
+                    @foreach (var item in Model)
+                    {
+                        @if (!string.IsNullOrEmpty(item.ImageURL))
+                        {
+                            @* <img src="~/galleryimages/@item.ImageURL alt="img"> *@
+                            <img src="~/galleryimages/@item.ImageURL" />
+                        }
+                        else
+                        {
+                            <span>No images available</span>
+                        }
+                      
+                    }
+                   
+                </div>      
+            </div>
+         
+        </div>
+    </section>
+
+
+    @Html.Partial("userfooter")
+    <script src="" async defer></script>
+</body>
+</html>
